@@ -32,7 +32,7 @@
     <ROW Property="AI_CF_SysMinInactive" Value="sys_min_inactive.bmp" Type="1"/>
     <ROW Property="AI_CF_SysMinNormal" Value="sys_min_normal.bmp" Type="1"/>
     <ROW Property="AI_CF_TYPE" Value="0" MultiBuildValue="DefaultBuild:1" Type="4"/>
-    <ROW Property="AI_CURRENT_YEAR" Value="2026" ValueLocId="-"/>
+    <ROW Property="AI_CURRENT_YEAR" Value="3000" ValueLocId="-"/>
     <ROW Property="AI_FINDEXE_TITLE" Value="Select the installation package for [|ProductName]" ValueLocId="AI.Property.FindExeTitle"/>
     <ROW Property="AI_FrameBtnsColor" Value="powderblue" MultiBuildValue="DefaultBuild:aquamarine" MsiKey="AI_FrameBtnsColor"/>
     <ROW Property="AI_FrameColor" Value="powderblue" MultiBuildValue="DefaultBuild:aquamarine" MsiKey="AI_FrameColor"/>
@@ -40,7 +40,6 @@
     <ROW Property="AI_PACKAGING_TOOL" Value="Advanced Installer 20.2 build 2c3f1cf9" ValueLocId="-"/>
     <ROW Property="AI_ThemeColor" Value="powderblue" MultiBuildValue="DefaultBuild:aquamarine" MsiKey="AI_ThemeColor"/>
     <ROW Property="ALLUSERS" Value="1"/>
-    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
     <ROW Property="ARPNOREPAIR" MultiBuildValue="DefaultBuild:1"/>
     <ROW Property="AiWinUI" MultiBuildValue="DefaultBuild:1"/>
     <ROW Property="AiWinUIBtnHoverBkgColorEnd" MultiBuildValue="DefaultBuild:##01B6B0"/>
