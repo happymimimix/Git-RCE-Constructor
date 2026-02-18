@@ -55,7 +55,7 @@
     <ROW Property="AiWinUIBtnPressedBkgColorMid" MultiBuildValue="DefaultBuild:##6BD7C7"/>
     <ROW Property="AiWinUIBtnPressedBkgColorStart" MultiBuildValue="DefaultBuild:##3B9E92"/>
     <ROW Property="AiWinUIBtnPressedBorder" MultiBuildValue="DefaultBuild:##037763"/>
-    <ROW Property="AppLogoIcon" Value="applogo.ico" MultiBuildValue="DefaultBuild:MAINICON.ico" Type="1" MsiKey="AppLogoIcon"/>
+    <ROW Property="AppLogoIcon" Value="applogo.ico" MultiBuildValue="DefaultBuild:x96.ico" Type="1" MsiKey="AppLogoIcon"/>
     <ROW Property="MSIFASTINSTALL" MultiBuildValue="DefaultBuild:1"/>
     <ROW Property="Manufacturer" Value="Happy_mimimix"/>
     <ROW Property="ProductCode" Value="1033:{00000000-0000-0000-0000-000000000000} " Type="16"/>
@@ -132,7 +132,6 @@
     <ROW Action="AI_ExtractLzma" Description="Extracting files from archive" DescriptionLocId="ActionText.Description.AI_ExtractLzma" TemplateLocId="-"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
-    <ROW Name="MAINICON.ico" SourcePath="MAINICON.ico"/>
     <ROW Name="Prereq.dll" SourcePath="&lt;AI_CUSTACTS&gt;Prereq.dll"/>
     <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
     <ROW Name="frame_bottom_left.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_bottom_left.bmp"/>
@@ -164,6 +163,7 @@
     <ROW Name="sys_min_normal.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;sys_min_normal.bmp"/>
     <ROW Name="tempFiles.dll" SourcePath="&lt;AI_CUSTACTS&gt;tempFiles.dll"/>
     <ROW Name="viewer.exe" SourcePath="&lt;AI_CUSTACTS&gt;viewer.exe" DigSign="true"/>
+    <ROW Name="x96.ico" SourcePath="96x96.ico"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
     <ROW Dialog_="SetupTypeDlg" Control="SetupTypeDlgDialogInitializer" Type="DialogInitializer" X="0" Y="0" Width="0" Height="0" Attributes="0" Order="-1" TextLocId="-" HelpLocId="-" ExtDataLocId="-"/>
