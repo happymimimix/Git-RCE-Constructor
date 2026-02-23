@@ -1,2 +1,1 @@
-# Git-RCE-Constructor
-A simple tool that can help you construct a RCE repository easily. 
+# 禁止将本工具用于违法用途！使用此工具造成的一切后果均由使用者承担。
