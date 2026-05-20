@@ -61,7 +61,7 @@
     <ROW Property="ProductCode" Value="1033:{00000000-0000-0000-0000-000000000000} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="Git RCE Constructor"/>
-    <ROW Property="ProductVersion" Value="1.5.0"/>
+    <ROW Property="ProductVersion" Value="1.6"/>
     <ROW Property="REBOOT" MultiBuildValue="DefaultBuild:ReallySuppress"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
     <ROW Property="UpgradeCode" Value="{00000000-0000-0000-0000-000000000000}"/>
@@ -93,11 +93,13 @@
     <ATTRIBUTE name="CurrentFeature" value="Scripts"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
-    <ROW File="Git2.45.064bit.exe" Component_="INSTALLERS" FileName="GITINST.EXE|Git-2.45.0-64-bit.exe" Attributes="0" SourcePath="Git-2.45.0-64-bit.exe" SelfReg="false"/>
+    <ROW File="Git2.45.064bit.exe" Component_="INSTALLERS" FileName="GITINS64.EXE|Git-2.45.0-64-bit.exe" Attributes="0" SourcePath="Git-2.45.0-64-bit.exe" SelfReg="false"/>
+    <ROW File="Git2.45.032bit.exe" Component_="INSTALLERS" FileName="GITINST.EXE|Git-2.45.0-32-bit.exe" Attributes="0" SourcePath="Git-2.45.0-32-bit.exe" SelfReg="false"/>
     <ROW File="SilentInstall.cmd" Component_="INSTALLERS" FileName="SILINST.CMD|SilentInstall.cmd" Attributes="0" SourcePath="SilentInstall.cmd" SelfReg="false"/>
     <ROW File="Config.inf" Component_="INSTALLERS" FileName="CNFG.INF|Config.inf" Attributes="0" SourcePath="Config.inf" SelfReg="false"/>
     <ROW File="Git_RCE_Constructor_Local.sh" Component_="SCRIPTS" FileName="LOCRCE.SH|Git_RCE_Constructor_Local.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Local.sh" SelfReg="false"/>
     <ROW File="Git_RCE_Constructor_Remote.sh" Component_="SCRIPTS" FileName="RMTRCE.SH|Git_RCE_Constructor_Remote.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Remote.sh" SelfReg="false"/>
+    <ROW File="Git_RCE_Constructor_Update.sh" Component_="SCRIPTS" FileName="UPDRCE.SH|Git_RCE_Constructor_Update.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Update.sh" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder]gitrcetool_inst\dwnl" Options="2"/>
