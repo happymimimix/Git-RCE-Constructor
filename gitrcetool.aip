@@ -102,6 +102,7 @@
     <ROW File="Git_RCE_Constructor_Local.sh" Component_="SCRIPTS" FileName="LOCRCE.SH|Git_RCE_Constructor_Local.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Local.sh" SelfReg="false"/>
     <ROW File="Git_RCE_Constructor_Remote.sh" Component_="SCRIPTS" FileName="RMTRCE.SH|Git_RCE_Constructor_Remote.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Remote.sh" SelfReg="false"/>
     <ROW File="Git_RCE_Constructor_Update.sh" Component_="SCRIPTS" FileName="UPDRCE.SH|Git_RCE_Constructor_Update.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Update.sh" SelfReg="false"/>
+    <ROW File="Safe_Clone_Tool.sh" Component_="SCRIPTS" FileName="SAFECLNE.SH|Safe_Clone_Tool.sh" Attributes="0" SourcePath="Safe_Clone_Tool.sh" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder]gitrcetool_inst\dwnl" Options="2"/>

