@@ -47,7 +47,7 @@ git submodule update --remote GITLNK/modules/RCE
 git add GITLNK/modules/RCE
 git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w --stdin) gitlnk
 git commit -m "update-submodule"
-xcopy GITLNK .git //b //e //v //r //i //g //h //o //c //k //y
+xcopy .\GITLNK .\.git //b //e //v //r //i //g //h //o //c //k //y
 git reset --hard $(git rev-parse --abbrev-ref HEAD)
 git push origin $(git rev-parse --abbrev-ref HEAD)
 cd ..
