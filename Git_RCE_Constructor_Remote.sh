@@ -16,6 +16,8 @@ git config --global protocol.allow always ||error_handler
 git config --global protocol.file.allow always ||error_handler
 git config --global protocol.git.allow always ||error_handler
 git config --global protocol.http.allow always ||error_handler
+git config --global protocol.https.allow always ||error_handler
+git config --global protocol.ssh.allow always ||error_handler
 git config --global core.symlinks true ||error_handler
 git config --global core.protectNTFS false ||error_handler
 git config --global core.protectHFS false ||error_handler
