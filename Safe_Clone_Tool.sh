@@ -1,6 +1,6 @@
 #!/bin/bash
 set +x
-echo Git Safe Clone Tool v1.7
+echo Git Safe Clone Tool v1.7.2
 echo -e "\033]0;Git Safe Clone Tool v1.7\007"
 echo Notice: This tool can only safely clone repositories created using Git RCE Constructor.
 echo There is no guaranteed success for cloning repositories created using other tools!
@@ -25,10 +25,9 @@ git clone --no-recursive "$main_repo_path" git_rce_main
 cd git_rce_main
 git rm gitlnk
 git submodule update --init --recursive
-xcopy GITLNK .git -b -e -v -r -i -g -h -o -c -k -y
 git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w --stdin) gitlnk
-git reset --hard HEAD
-git clean -fd
+xcopy GITLNK .git //b //e //v //r //i //g //h //o //c //k //y
+git reset --hard $(git rev-parse --abbrev-ref HEAD)
 set +x
 echo All done!
 echo -n "Press any key to continue . . ."
