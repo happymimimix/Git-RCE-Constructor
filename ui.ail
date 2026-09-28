@@ -24,59 +24,59 @@
   <STRING id="AI.Java.JavaDirectoryNotFound" value="Unable to enumerate Java directory contents."/>
   <STRING id="AI.Java.MainClassNameRequired" value="Main class name is required."/>
   <STRING id="AI.JsonFile.DefaultFileName" value="New file"/>
-  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] cannot be installed on systems with Adobe Reader version lower than [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
-  <STRING id="AI.LaunchCondition.ActiveSync" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_ACTIVESYNC_DISPLAY] or higher."/>
-  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] cannot be installed on systems with color quality lower than [AI_REQUIRED_COLOR_QUALITY] bits."/>
+  <STRING id="AI.LaunchCondition.AcrobatReader" value="[ProductName] v[ProductVersion] cannot be installed on systems with Adobe Reader version lower than [AI_REQUIRED_ADOBEREADER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.ActiveSync" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_ACTIVESYNC_DISPLAY] or higher."/>
+  <STRING id="AI.LaunchCondition.ColorDepth" value="[ProductName] v[ProductVersion] cannot be installed on systems with color quality lower than [AI_REQUIRED_COLOR_QUALITY] bits."/>
   <STRING id="AI.LaunchCondition.Description" value="Launch Condition Description"/>
-  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] cannot be installed on systems with DirectX version lower than [AI_REQUIRED_DIRECTX_DISPLAY]."/>
-  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] cannot be installed on systems with .NET Framework version lower than [AI_REQUIRED_DOTNET_DISPLAY]."/>
-  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] cannot be installed on systems with .NET Core version lower than [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
-  <STRING id="AI.LaunchCondition.IE" value="[ProductName] cannot be installed on systems with Internet Explorer version lower than [AI_REQUIRED_IE_DISPLAY]."/>
-  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] cannot be installed on systems with Internet Information Services version lower than [AI_REQUIRED_IIS_DISPLAY]."/>
-  <STRING id="AI.LaunchCondition.Internet" value="[ProductName] requires an active Internet connection for installation. Please check your network configuration and proxy settings."/>
-  <STRING id="AI.LaunchCondition.Jdk" value="[ProductName] cannot be installed on systems with JDK version lower than [AI_REQUIRED_JDK_DISPLAY]."/>
-  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] cannot be installed on systems with JRE version lower than [AI_REQUIRED_JRE_DISPLAY]."/>
-  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] cannot be installed on [WindowsType9XDisplay]."/>
-  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] cannot be installed on [WindowsTypeNTDisplay]."/>
-  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] cannot be installed on [WindowsTypeNT40Display]."/>
-  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] cannot be installed on [WindowsTypeNT50Display]."/>
-  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]."/>
-  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] cannot be installed on [WindowsTypeNT64Display]."/>
-  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
-  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
-  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
-  <STRING id="AI.LaunchCondition.Office" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_OFFICE_APPNAME]."/>
-  <STRING id="AI.LaunchCondition.Office2003" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_OFFICE_APPNAME] 2003 or higher."/>
-  <STRING id="AI.LaunchCondition.Office2003PIA" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_OFFICE2003_PIA_APPNAME] 2003 Primary Interop Assembly."/>
-  <STRING id="AI.LaunchCondition.Office2007" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_OFFICE_APPNAME] 2007 or higher."/>
-  <STRING id="AI.LaunchCondition.Office2007PIA" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_OFFICE2007_PIA_APPNAME] 2007 Primary Interop Assembly."/>
-  <STRING id="AI.LaunchCondition.Office2007SharedPIA" value="[ProductName] cannot be installed on systems without Office 2007 Shared Primary Interop Assembly."/>
-  <STRING id="AI.LaunchCondition.Office2010" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_OFFICE_APPNAME] 2010 or higher."/>
-  <STRING id="AI.LaunchCondition.Office2010PIA" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_OFFICE2010_PIA_APPNAME] 2010 Primary Interop Assembly."/>
-  <STRING id="AI.LaunchCondition.Office2010SharedPIA" value="[ProductName] cannot be installed on systems without Office 2010 Shared Primary Interop Assembly."/>
-  <STRING id="AI.LaunchCondition.Office2013" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_OFFICE_APPNAME] 2013 or higher."/>
-  <STRING id="AI.LaunchCondition.Office2016" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_OFFICE_APPNAME] 2016 or higher."/>
-  <STRING id="AI.LaunchCondition.PowerShell" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_POWERSHELL_DISPLAY]."/>
-  <STRING id="AI.LaunchCondition.Windows.PowerShell" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_WINDOWS_POWERSHELL_DISPLAY]."/>
-  <STRING id="AI.LaunchCondition.Admin.User" value="[ProductName] requires installation by an Admin user account."/>
-  <STRING id="AI.LaunchCondition.Product.Antivirus" value="[ProductName] requires an active AntiVirus product to install."/>
-  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] cannot be installed on systems with less physical memory than [AI_REQUIRED_PHYSICAL_MEMORY] MB."/>
+  <STRING id="AI.LaunchCondition.DirectX" value="[ProductName] v[ProductVersion] cannot be installed on systems with DirectX version lower than [AI_REQUIRED_DIRECTX_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNET" value="[ProductName] v[ProductVersion] cannot be installed on systems with .NET Framework version lower than [AI_REQUIRED_DOTNET_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.DotNETCore" value="[ProductName] v[ProductVersion] cannot be installed on systems with .NET Core version lower than [AI_REQUIRED_DOTNET_CORE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IE" value="[ProductName] v[ProductVersion] cannot be installed on systems with Internet Explorer version lower than [AI_REQUIRED_IE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.IIS" value="[ProductName] v[ProductVersion] cannot be installed on systems with Internet Information Services version lower than [AI_REQUIRED_IIS_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Internet" value="[ProductName] v[ProductVersion] requires an active Internet connection for installation. Please check your network configuration and proxy settings."/>
+  <STRING id="AI.LaunchCondition.Jdk" value="[ProductName] v[ProductVersion] cannot be installed on systems with JDK version lower than [AI_REQUIRED_JDK_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Jre" value="[ProductName] v[ProductVersion] cannot be installed on systems with JRE version lower than [AI_REQUIRED_JRE_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.No9X" value="[ProductName] v[ProductVersion] cannot be installed on [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT" value="[ProductName] v[ProductVersion] cannot be installed on [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT40" value="[ProductName] v[ProductVersion] cannot be installed on [WindowsTypeNT40Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT50" value="[ProductName] v[ProductVersion] cannot be installed on [WindowsTypeNT50Display]."/>
+  <STRING id="AI.LaunchCondition.NoNT5X" value="[ProductName] v[ProductVersion] cannot be installed on [WindowsTypeNT5XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoNT64" value="[ProductName] v[ProductVersion] cannot be installed on [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.NoSpecific9X" value="[ProductName] v[ProductVersion] cannot be installed on the following Windows versions: [WindowsType9XDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT" value="[ProductName] v[ProductVersion] cannot be installed on the following Windows versions: [WindowsTypeNTDisplay]."/>
+  <STRING id="AI.LaunchCondition.NoSpecificNT64" value="[ProductName] v[ProductVersion] cannot be installed on the following Windows versions: [WindowsTypeNT64Display]."/>
+  <STRING id="AI.LaunchCondition.Office" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_OFFICE_APPNAME]."/>
+  <STRING id="AI.LaunchCondition.Office2003" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_OFFICE_APPNAME] 2003 or higher."/>
+  <STRING id="AI.LaunchCondition.Office2003PIA" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_OFFICE2003_PIA_APPNAME] 2003 Primary Interop Assembly."/>
+  <STRING id="AI.LaunchCondition.Office2007" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_OFFICE_APPNAME] 2007 or higher."/>
+  <STRING id="AI.LaunchCondition.Office2007PIA" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_OFFICE2007_PIA_APPNAME] 2007 Primary Interop Assembly."/>
+  <STRING id="AI.LaunchCondition.Office2007SharedPIA" value="[ProductName] v[ProductVersion] cannot be installed on systems without Office 2007 Shared Primary Interop Assembly."/>
+  <STRING id="AI.LaunchCondition.Office2010" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_OFFICE_APPNAME] 2010 or higher."/>
+  <STRING id="AI.LaunchCondition.Office2010PIA" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_OFFICE2010_PIA_APPNAME] 2010 Primary Interop Assembly."/>
+  <STRING id="AI.LaunchCondition.Office2010SharedPIA" value="[ProductName] v[ProductVersion] cannot be installed on systems without Office 2010 Shared Primary Interop Assembly."/>
+  <STRING id="AI.LaunchCondition.Office2013" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_OFFICE_APPNAME] 2013 or higher."/>
+  <STRING id="AI.LaunchCondition.Office2016" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_OFFICE_APPNAME] 2016 or higher."/>
+  <STRING id="AI.LaunchCondition.PowerShell" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_POWERSHELL_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Windows.PowerShell" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_WINDOWS_POWERSHELL_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Admin.User" value="[ProductName] v[ProductVersion] requires installation by an Admin user account."/>
+  <STRING id="AI.LaunchCondition.Product.Antivirus" value="[ProductName] v[ProductVersion] requires an active AntiVirus product to install."/>
+  <STRING id="AI.LaunchCondition.RAM" value="[ProductName] v[ProductVersion] cannot be installed on systems with less physical memory than [AI_REQUIRED_PHYSICAL_MEMORY] MB."/>
   <STRING id="AI.LaunchCondition.RequireBootstrapper" value="This package can only be run from a bootstrapper."/>
-  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] cannot be installed on systems with screen resolution smaller than [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
-  <STRING id="AI.LaunchCondition.SQLCompact" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_SQLCOMPACT_DISPLAY] or higher."/>
-  <STRING id="AI.LaunchCondition.SQLExpress" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_SQLEXPRESS_DISPLAY] or higher."/>
-  <STRING id="AI.LaunchCondition.SQLServerODBCDriver" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_SQLSERVER_ODBCDRIVER_DISPLAY] or higher."/>
-  <STRING id="AI.LaunchCondition.SharePoint" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_SHAREPOINT_DISPLAY]."/>
-  <STRING id="AI.LaunchCondition.SharePointDeployment" value="[ProductName] cannot be installed because the SharePoint solutions it contains are already deployed."/>
-  <STRING id="AI.LaunchCondition.SharePointPermissions" value="[ProductName] cannot be installed because the current user does not have enough permissions to deploy SharePoint solutions."/>
-  <STRING id="AI.LaunchCondition.SharePointServices" value="[ProductName] cannot be installed because SharePoint Administration and SharePoint Timer services are not started."/>
-  <STRING id="AI.LaunchCondition.Windows.Azure.VM" value="[ProductName] can only be installed on Windows Azure virtual machines."/>
-  <STRING id="AI.LaunchCondition.VM" value="[ProductName] cannot be installed on systems running on virtual machines."/>
-  <STRING id="AI.LaunchCondition.ARM64" value="[ProductName] cannot be installed on systems running on ARM64 processors. Check for ARM64 version of [ProductName]"/>
-  <STRING id="AI.LaunchCondition.PendingReboot" value="[ProductName] cannot be installed on systems that require a reboot. Please reboot the system and rerun the installer."/>
-  <STRING id="AI.LaunchCondition.VSTO" value="[ProductName] cannot be installed on systems without [AI_REQUIRED_VSTO_DISPLAY]."/>
-  <STRING id="AI.LaunchCondition.WI" value="[ProductName] cannot be installed on systems with Windows Installer version lower than [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
-  <STRING id="AI.LaunchCondition.XNAFramework" value="[ProductName] cannot be installed on systems with XNA Framework version lower than [AI_REQUIRED_XNA_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.Resolution" value="[ProductName] v[ProductVersion] cannot be installed on systems with screen resolution smaller than [AI_REQUIRED_SCREEN_RESOLUTION_X] x [AI_REQUIRED_SCREEN_RESOLUTION_Y]."/>
+  <STRING id="AI.LaunchCondition.SQLCompact" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_SQLCOMPACT_DISPLAY] or higher."/>
+  <STRING id="AI.LaunchCondition.SQLExpress" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_SQLEXPRESS_DISPLAY] or higher."/>
+  <STRING id="AI.LaunchCondition.SQLServerODBCDriver" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_SQLSERVER_ODBCDRIVER_DISPLAY] or higher."/>
+  <STRING id="AI.LaunchCondition.SharePoint" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_SHAREPOINT_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.SharePointDeployment" value="[ProductName] v[ProductVersion] cannot be installed because the SharePoint solutions it contains are already deployed."/>
+  <STRING id="AI.LaunchCondition.SharePointPermissions" value="[ProductName] v[ProductVersion] cannot be installed because the current user does not have enough permissions to deploy SharePoint solutions."/>
+  <STRING id="AI.LaunchCondition.SharePointServices" value="[ProductName] v[ProductVersion] cannot be installed because SharePoint Administration and SharePoint Timer services are not started."/>
+  <STRING id="AI.LaunchCondition.Windows.Azure.VM" value="[ProductName] v[ProductVersion] can only be installed on Windows Azure virtual machines."/>
+  <STRING id="AI.LaunchCondition.VM" value="[ProductName] v[ProductVersion] cannot be installed on systems running on virtual machines."/>
+  <STRING id="AI.LaunchCondition.ARM64" value="[ProductName] v[ProductVersion] cannot be installed on systems running on ARM64 processors. Check for ARM64 version of [ProductName] v[ProductVersion]"/>
+  <STRING id="AI.LaunchCondition.PendingReboot" value="[ProductName] v[ProductVersion] cannot be installed on systems that require a reboot. Please reboot the system and rerun the installer."/>
+  <STRING id="AI.LaunchCondition.VSTO" value="[ProductName] v[ProductVersion] cannot be installed on systems without [AI_REQUIRED_VSTO_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.WI" value="[ProductName] v[ProductVersion] cannot be installed on systems with Windows Installer version lower than [AI_REQUIRED_WINDOWS_INSTALLER_DISPLAY]."/>
+  <STRING id="AI.LaunchCondition.XNAFramework" value="[ProductName] v[ProductVersion] cannot be installed on systems with XNA Framework version lower than [AI_REQUIRED_XNA_DISPLAY]."/>
   <STRING id="AI.Library.DefaultFileName" value="New Library"/>
   <STRING id="AI.FsLink.DefaultFileName" value="New Link.ext"/>
   <STRING id="AI.MoveFile.DestName" value="YourFile.exe"/>
@@ -104,64 +104,64 @@
   <STRING id="AI.Verb.DefaultCommand" value="&amp;Open"/>
   <STRING id="AI.XmlFile.DefaultFileName" value="New file"/>
   <!-- Dialog table -->
-  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.BrowseDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.CancelDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.ClientServerDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.CustomizeDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.DiskCostDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.AdminBrowseDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.AdminInstallPointDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.AdminRegistrationDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.AdminWelcomeDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.BrowseDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.CancelDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.ClientServerDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.CustomizeDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.DiskCostDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
   <STRING id="Dialog.ErrorDlg" value="Installer Information"/>
-  <STRING id="Dialog.ExitDialog" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.FatalError" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.FilesInUse" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.FolderDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.InstallTypeDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.InstallDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.LogonInformationDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.MinProgressDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.PrepareDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.ProgressDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.ReadmeDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.ResumeDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.UpgradeDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.UserExit" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.WelcomeDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.ExtRegDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.SharePointLogDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.SQLServerConnectionDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.TemplateDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.TomcatServerDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.BrowseIISWebsitesDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.ConfigureDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.ExitDialog" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.FatalError" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.FilesInUse" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.FolderDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.InstallTypeDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.InstallDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.LicenseAgreementDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.LogonInformationDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.MaintenanceTypeDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.MaintenanceWelcomeDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.MinProgressDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.OutOfDiskDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.OutOfRbDiskDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.PrepareDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.PrerequisitesDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.ProgressDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.ReadmeDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.ResumeDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.SetupTypeDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.UpgradeDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.UserExit" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.UserRegistrationDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.VerifyReadyDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.VerifyRemoveDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.VerifyRepairDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.WaitForCostingDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.WelcomeDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.PatchWelcomeDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.ExtRegDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.SharePointLogDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.ShortcutsDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.StartMenuShortcutsDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.SQLConnectionDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.SQLServerConnectionDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.TemplateDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.TemplateSpawnDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.TomcatServerDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.MsiRMFilesInUse" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.BrowseIISWebsitesDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.ConfigureDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
   <STRING id="Dialog.FolderPage" value="Installation &amp;Folder"/>
   <STRING id="Dialog.CustomizePage" value="Fea&amp;tures"/>
-  <STRING id="Dialog.LanguageDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.WelcomePrereqDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.ProgressPrereqDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.PreparePrereqDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.BasicUIDlg" value="[ProductName] [Setup]"/>
-  <STRING id="Dialog.MultipleInstancesDlg" value="[ProductName] [Setup]"/>
+  <STRING id="Dialog.LanguageDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.WelcomePrereqDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.ProgressPrereqDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.PreparePrereqDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.BasicUIDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
+  <STRING id="Dialog.MultipleInstancesDlg" value="[ProductName] v[ProductVersion] [Setup]"/>
   <!-- Control table -->
   <STRING id="Control.Text.AdminBrowseDlg#ComboLabel" value="&amp;Look in:"/>
   <STRING id="Control.Text.AdminBrowseDlg#Description" value="Browse to the destination folder"/>
@@ -170,7 +170,7 @@
   <STRING id="Control.Text.AdminBrowseDlg#PathLabel" value="&amp;Folder name:"/>
   <STRING id="Control.Text.AdminBrowseDlg#Title" value="Change current destination folder"/>
   <STRING id="Control.Help.AdminBrowseDlg#Up" value="Up One Level|"/>
-  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Please specify a network location for the server image of [ProductName] product"/>
+  <STRING id="Control.Text.AdminInstallPointDlg#Description" value="Please specify a network location for the server image of [ProductName] v[ProductVersion] product"/>
   <STRING id="Control.Text.AdminInstallPointDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.AdminInstallPointDlg#Text" value="&amp;Enter a new network location or click Browse to browse to one."/>
   <STRING id="Control.Text.AdminInstallPointDlg#Title" value="Network Location"/>
@@ -178,11 +178,11 @@
   <STRING id="Control.Text.AdminRegistrationDlg#Description" value="Please enter your company information"/>
   <STRING id="Control.Text.AdminRegistrationDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.AdminRegistrationDlg#OrganizationEdit" value="{80}"/>
-  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Please enter the name of your organization in the box below.  This will be used as default company name for subsequent installations of [ProductName]:"/>
+  <STRING id="Control.Text.AdminRegistrationDlg#OrganizationLabel" value="&amp;Please enter the name of your organization in the box below.  This will be used as default company name for subsequent installations of [ProductName] v[ProductVersion]:"/>
   <STRING id="Control.Text.AdminRegistrationDlg#Title" value="Company Information"/>
-  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="The [Wizard] will create a server image of [ProductName], at a specified network location.  Click [Text_Next] to continue or Cancel to exit the [Wizard]."/>
-  <STRING id="Control.Text.AdminWelcomeDlg#DescriptionNoClose" value="The [Wizard] will create a server image of [ProductName], at a specified network location.  Click [Text_Next] to continue or close the window to exit the [Wizard]."/>
-  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Welcome to the [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Description" value="The [Wizard] will create a server image of [ProductName] v[ProductVersion], at a specified network location.  Click [Text_Next] to continue or Cancel to exit the [Wizard]."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#DescriptionNoClose" value="The [Wizard] will create a server image of [ProductName] v[ProductVersion], at a specified network location.  Click [Text_Next] to continue or close the window to exit the [Wizard]."/>
+  <STRING id="Control.Text.AdminWelcomeDlg#Title" value="Welcome to the [ProductName] v[ProductVersion] [Wizard]"/>
   <STRING id="Control.Text.BrowseDlg#ComboLabel" value="&amp;Look in:"/>
   <STRING id="Control.Text.BrowseDlg#Description" value="Browse to the destination folder"/>
   <STRING id="Control.Text.BrowseDlg#Logo" value="Advanced Installer"/>
@@ -195,7 +195,7 @@
   <STRING id="Control.Text.BrowseIISWebsitesDlg#Title" value="Target Websites"/>
   <STRING id="Control.Text.BrowseIISWebsitesDlg#WebsitesList" value="WebsitesList"/>
   <STRING id="Control.Help.CancelDlg#Icon" value="Information icon|"/>
-  <STRING id="Control.Text.CancelDlg#Text" value="Are you sure you want to cancel [ProductName] installation?"/>
+  <STRING id="Control.Text.CancelDlg#Text" value="Are you sure you want to cancel [ProductName] v[ProductVersion] installation?"/>
   <STRING id="Control.Help.ClientServerDlg#CompleteButton" value="Complete Installation|"/>
   <STRING id="Control.Help.ClientServerDlg#CustomButton" value="Server Installation|"/>
   <STRING id="Control.Help.ClientServerDlg#TypicalButton" value="Client Installation|"/>
@@ -228,40 +228,40 @@
   <STRING id="Control.Help.ErrorDlg#ErrorIcon" value="Information icon|"/>
   <STRING id="Control.Text.ErrorDlg#ErrorText" value="Information text"/>
   <STRING id="Control.Text.ExitDialog#Description" value="Click the Finish button to exit the [Wizard]."/>
-  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Launch [ProductName]"/>
-  <STRING id="Control.Text.ExitDialog#Title" value="Completing the [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.ExitDialog#LaunchProdText" value="Launch [ProductName] v[ProductVersion]"/>
+  <STRING id="Control.Text.ExitDialog#Title" value="Completing the [ProductName] v[ProductVersion] [Wizard]"/>
   <STRING id="Control.Text.ExitDialog#ViewReadmeText" value="View readme file"/>
-  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] will register [ProductName] to handle the following file types: [AI_ExtensionList_Text]."/>
-  <STRING id="Control.Text.ExtRegDlg#Description" value="Associate [ProductName] with file types."/>
+  <STRING id="Control.Text.ExtRegDlg#ExtList" value="[Wizard] will register [ProductName] v[ProductVersion] to handle the following file types: [AI_ExtensionList_Text]."/>
+  <STRING id="Control.Text.ExtRegDlg#Description" value="Associate [ProductName] v[ProductVersion] with file types."/>
   <STRING id="Control.Text.ExtRegDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.ExtRegDlg#Title" value="File Associations"/>
-  <STRING id="Control.Text.FatalError#Description1" value="[ProductName] setup ended prematurely because of an error.  Your system has not been modified.  To install this program at a later time, please run the installation again."/>
+  <STRING id="Control.Text.FatalError#Description1" value="[ProductName] v[ProductVersion] setup ended prematurely because of an error.  Your system has not been modified.  To install this program at a later time, please run the installation again."/>
   <STRING id="Control.Text.FatalError#Description2" value="Click the Finish button to exit the [Wizard]."/>
-  <STRING id="Control.Text.FatalError#Title" value="[ProductName] [Wizard] ended prematurely"/>
+  <STRING id="Control.Text.FatalError#Title" value="[ProductName] v[ProductVersion] [Wizard] ended prematurely"/>
   <STRING id="Control.Text.FatalError#LogCheckBox" value="Show log"/>
-  <STRING id="Control.Text.FileAssociationsDlg#Description" value="Select the extensions you want associated with [ProductName]"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Description" value="Select the extensions you want associated with [ProductName] v[ProductVersion]"/>
   <STRING id="Control.Text.FileAssociationsDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.FileAssociationsDlg#Title" value="Select File Associations"/>
-  <STRING id="Control.Text.FileAssociationsDlg#Text" value="Please select the file types you want to automatically open with [ProductName]:"/>
+  <STRING id="Control.Text.FileAssociationsDlg#Text" value="Please select the file types you want to automatically open with [ProductName] v[ProductVersion]:"/>
   <STRING id="Control.Text.FilesInUse#Description" value="Some files that need to be updated are currently in use."/>
   <STRING id="Control.Text.FilesInUse#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.FilesInUse#Text" value="The following applications are using files that need to be updated by this setup. You can either close the applications and then click Retry, or click Ignore so that the installer continues the installation and replaces these files when your system restarts."/>
   <STRING id="Control.Text.FilesInUse#Title" value="Files in Use"/>
   <STRING id="Control.Help.FolderDlg#BannerBitmap" value="|"/>
   <STRING id="Control.Help.FolderDlg#Browse" value="|"/>
-  <STRING id="Control.Text.FolderDlg#Description" value="This is the folder where [ProductName] will be installed."/>
+  <STRING id="Control.Text.FolderDlg#Description" value="This is the folder where [ProductName] v[ProductVersion] will be installed."/>
   <STRING id="Control.Help.FolderDlg#FolderEdit" value="|"/>
   <STRING id="Control.Help.FolderDlg#FolderLabel" value="|"/>
   <STRING id="Control.Text.FolderDlg#FolderLabel" value="&amp;Folder:"/>
   <STRING id="Control.Text.FolderDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.FolderDlg#Text" value="To install in this folder, click &quot;[Text_Next]&quot;. To install to a different folder, enter it below or click &quot;Browse&quot;."/>
-  <STRING id="Control.Text.FolderDlg#TextNoNext" value="[ProductName] will be installed on your computer. To install to a different location, enter it below or click &quot;Browse&quot;."/>
+  <STRING id="Control.Text.FolderDlg#TextNoNext" value="[ProductName] v[ProductVersion] will be installed on your computer. To install to a different location, enter it below or click &quot;Browse&quot;."/>
   <STRING id="Control.Text.FolderDlg#Title" value="Select Installation Folder"/>
   <STRING id="Control.Text.InstallDlg#Title" value="File Location and License Terms"/>
   <STRING id="Control.Text.InstallTypeDlg#Description" value="Choose the installation type."/>
   <STRING id="Control.Text.InstallTypeDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.InstallTypeDlg#Title" value="Installation Type"/>
-  <STRING id="Control.Text.InstallTypeDlg#InstallTypeText" value="Install [ProductName] for:"/>
+  <STRING id="Control.Text.InstallTypeDlg#InstallTypeText" value="Install [ProductName] v[ProductVersion] for:"/>
   <STRING id="Control.Text.InstallTypeDlg#InstallForTextLabel" value="Install for:"/>
   <STRING id="Control.Text.InstallTypeDlg#InstallPathTextLabel" value="Install path:"/>
   <STRING id="Control.Text.LicenseAgreementDlg#AgreementText" value="&lt;AI_RES&gt;eula.rtf"/>
@@ -284,14 +284,14 @@
   <STRING id="Control.Text.MaintenanceTypeDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Help.MaintenanceTypeDlg#RemoveButton" value="Remove Installation|"/>
   <STRING id="Control.Text.MaintenanceTypeDlg#RemoveLabel" value="&amp;Remove"/>
-  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Removes [ProductName] from your computer."/>
+  <STRING id="Control.Text.MaintenanceTypeDlg#RemoveText" value="Removes [ProductName] v[ProductVersion] from your computer."/>
   <STRING id="Control.Help.MaintenanceTypeDlg#RepairButton" value="Repair Installation|"/>
   <STRING id="Control.Text.MaintenanceTypeDlg#RepairLabel" value="Re&amp;pair"/>
   <STRING id="Control.Text.MaintenanceTypeDlg#RepairText" value="Repairs errors in the most recent installation state - fixes missing or corrupt files, shortcuts and registry entries."/>
   <STRING id="Control.Text.MaintenanceTypeDlg#Title" value="Modify, Repair or Remove installation"/>
-  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="The [Wizard] will allow you to change the way [ProductName] features are installed on your computer or even to remove [ProductName] from your computer.  Click [Text_Next] to continue or Cancel to exit the [Wizard]."/>
-  <STRING id="Control.Text.MaintenanceWelcomeDlg#DescriptionNoClose" value="The [Wizard] will allow you to change the way [ProductName] features are installed on your computer or even to remove [ProductName] from your computer.  Click [Text_Next] to continue or close the window to exit the [Wizard]."/>
-  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Welcome to the [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Description" value="The [Wizard] will allow you to change the way [ProductName] v[ProductVersion] features are installed on your computer or even to remove [ProductName] v[ProductVersion] from your computer.  Click [Text_Next] to continue or Cancel to exit the [Wizard]."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#DescriptionNoClose" value="The [Wizard] will allow you to change the way [ProductName] v[ProductVersion] features are installed on your computer or even to remove [ProductName] v[ProductVersion] from your computer.  Click [Text_Next] to continue or close the window to exit the [Wizard]."/>
+  <STRING id="Control.Text.MaintenanceWelcomeDlg#Title" value="Welcome to the [ProductName] v[ProductVersion] [Wizard]"/>
   <STRING id="Control.Text.MinProgressDlg#ProgressBar" value="Progress done"/>
   <STRING id="Control.Text.MinProgressDlg#StatusLabel" value="Status:"/>
   <STRING id="Control.Text.OutOfDiskDlg#Description" value="Disk space required for the installation exceeds available disk space."/>
@@ -306,7 +306,7 @@
   <STRING id="Control.Text.OutOfRbDiskDlg#Title" value="Out of Disk Space"/>
   <STRING id="Control.Text.OutOfRbDiskDlg#VolumeList" value="{120}{70}{70}{70}{70}"/>
   <STRING id="Control.Text.PrepareDlg#Description" value="Please wait while the [Wizard] prepares to guide you through the installation."/>
-  <STRING id="Control.Text.PrepareDlg#Title" value="Welcome to [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.PrepareDlg#Title" value="Welcome to [ProductName] v[ProductVersion] [Wizard]"/>
   <STRING id="Control.Text.PrerequisitesDlg#Description" value="Select which prerequisites will be installed"/>
   <STRING id="Control.Text.PrerequisitesDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.PrerequisitesDlg#PrerequisiteSelector" value="{110}{80}{70}{70}Name,Required,Found,Action"/>
@@ -314,15 +314,15 @@
   <STRING id="Control.Text.ProgressDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.ProgressDlg#ProgressBar" value="Progress done"/>
   <STRING id="Control.Text.ProgressDlg#StatusLabel" value="Status:"/>
-  <STRING id="Control.Text.ProgressDlg#Text" value="Please wait while the [Wizard] [Progress2] [ProductName].  This may take several minutes."/>
-  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
+  <STRING id="Control.Text.ProgressDlg#Text" value="Please wait while the [Wizard] [Progress2] [ProductName] v[ProductVersion].  This may take several minutes."/>
+  <STRING id="Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName] v[ProductVersion]"/>
   <STRING id="Control.Text.ReadmeDlg#Description" value="Please read the following text carefully"/>
   <STRING id="Control.Text.ReadmeDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.ReadmeDlg#ReadmeText" value="&lt;AI_RES&gt;readme.rtf"/>
   <STRING id="Control.Text.ReadmeDlg#Title" value="Read me file"/>
-  <STRING id="Control.Text.ResumeDlg#Description" value="The [Wizard] will complete the installation of [ProductName] on your computer.  Click Install to continue or Cancel to exit the [Wizard]."/>
-  <STRING id="Control.Text.ResumeDlg#DescriptionNoClose" value="The [Wizard] will complete the installation of [ProductName] on your computer.  Click Install to continue or close the window to exit the [Wizard]."/>
-  <STRING id="Control.Text.ResumeDlg#Title" value="Resuming the [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.ResumeDlg#Description" value="The [Wizard] will complete the installation of [ProductName] v[ProductVersion] on your computer.  Click Install to continue or Cancel to exit the [Wizard]."/>
+  <STRING id="Control.Text.ResumeDlg#DescriptionNoClose" value="The [Wizard] will complete the installation of [ProductName] v[ProductVersion] on your computer.  Click Install to continue or close the window to exit the [Wizard]."/>
+  <STRING id="Control.Text.ResumeDlg#Title" value="Resuming the [ProductName] v[ProductVersion] [Wizard]"/>
   <STRING id="Control.Help.SetupTypeDlg#CompleteButton" value="Complete Installation|"/>
   <STRING id="Control.Text.SetupTypeDlg#CompleteLabel" value="C&amp;omplete"/>
   <STRING id="Property.Text_Complete" value="Complete"/>
@@ -341,14 +341,14 @@
   <STRING id="Control.Text.SharePointLogDlg#Title" value="SharePoint Deployment Log"/>
   <STRING id="Control.Text.SharePointLogDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.SharePointLogDlg#SharePointLog" value="{0}"/>
-  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] can search for older versions of [ProductName] and remove them. Do you want to remove those versions?"/>
-  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] had detected that you choose an install location which is also used by the [AI_Replaced_Versions_List] version of [ProductName]. This version must be uninstalled. Do you also want to remove any other older version?"/>
-  <STRING id="Control.Text.UpgradeDlg#Description" value="Search and upgrade older versions of [ProductName]."/>
+  <STRING id="Control.Text.UpgradeDlg#Question" value="[Wizard] can search for older versions of [ProductName] v[ProductVersion] and remove them. Do you want to remove those versions?"/>
+  <STRING id="Control.Text.UpgradeDlg#QuestionReplace" value="[Wizard] had detected that you choose an install location which is also used by the [AI_Replaced_Versions_List] version of [ProductName] v[ProductVersion]. This version must be uninstalled. Do you also want to remove any other older version?"/>
+  <STRING id="Control.Text.UpgradeDlg#Description" value="Search and upgrade older versions of [ProductName] v[ProductVersion]."/>
   <STRING id="Control.Text.UpgradeDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.UpgradeDlg#Title" value="Upgrade Older Versions"/>
-  <STRING id="Control.Text.UserExit#Description1" value="[ProductName] setup was interrupted.  Your system has not been modified.  To install this program at a later time, please run the installation again."/>
+  <STRING id="Control.Text.UserExit#Description1" value="[ProductName] v[ProductVersion] setup was interrupted.  Your system has not been modified.  To install this program at a later time, please run the installation again."/>
   <STRING id="Control.Text.UserExit#Description2" value="Click the Finish button to exit the [Wizard]."/>
-  <STRING id="Control.Text.UserExit#Title" value="[ProductName] [Wizard] was interrupted"/>
+  <STRING id="Control.Text.UserExit#Title" value="[ProductName] v[ProductVersion] [Wizard] was interrupted"/>
   <STRING id="Control.Text.UserRegistrationDlg#CDKeyLabel" value="Serial Number:"/>
   <STRING id="Control.Text.UserRegistrationDlg#Description" value="Please enter your customer information"/>
   <STRING id="Control.Text.UserRegistrationDlg#Logo" value="Advanced Installer"/>
@@ -357,32 +357,32 @@
   <STRING id="Control.Text.UserRegistrationDlg#OrganizationEdit" value="{80}"/>
   <STRING id="Control.Text.UserRegistrationDlg#OrganizationLabel" value="&amp;Organization:"/>
   <STRING id="Control.Text.UserRegistrationDlg#Title" value="Customer Information"/>
-  <STRING id="Control.Text.VerifyReadyDlg#Description" value="The [Wizard] is ready to begin the [ProductName] installation"/>
+  <STRING id="Control.Text.VerifyReadyDlg#Description" value="The [Wizard] is ready to begin the [ProductName] v[ProductVersion] installation"/>
   <STRING id="Control.Text.VerifyReadyDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.VerifyReadyDlg#Text" value="Click Install to begin the installation.  If you want to review or change any of your installation settings, click Back.  Click Cancel to exit the wizard."/>
   <STRING id="Control.Text.VerifyReadyDlg#TextNoClose" value="Click Install to begin the installation.  If you want to review or change any of your installation settings, click Back.  Close the window to exit the wizard."/>
   <STRING id="Control.Text.VerifyReadyDlg#Title" value="Ready to Install"/>
   <STRING id="Control.Text.VerifyRemoveDlg#Description" value="You have chosen to remove the program from your computer."/>
   <STRING id="Control.Text.VerifyRemoveDlg#Logo" value="Advanced Installer"/>
-  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Click Remove to remove [ProductName] from your computer.  If you want to review or change any of your installation settings, click Back.  Click Cancel to exit the wizard."/>
-  <STRING id="Control.Text.VerifyRemoveDlg#TextNoClose" value="Click Remove to remove [ProductName] from your computer.  If you want to review or change any of your installation settings, click Back.  Close the window to exit the wizard."/>
-  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Remove [ProductName]"/>
-  <STRING id="Control.Text.VerifyRepairDlg#Description" value="The [Wizard] is ready to begin the repair of [ProductName]."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Text" value="Click Remove to remove [ProductName] v[ProductVersion] from your computer.  If you want to review or change any of your installation settings, click Back.  Click Cancel to exit the wizard."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#TextNoClose" value="Click Remove to remove [ProductName] v[ProductVersion] from your computer.  If you want to review or change any of your installation settings, click Back.  Close the window to exit the wizard."/>
+  <STRING id="Control.Text.VerifyRemoveDlg#Title" value="Remove [ProductName] v[ProductVersion]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Description" value="The [Wizard] is ready to begin the repair of [ProductName] v[ProductVersion]."/>
   <STRING id="Control.Text.VerifyRepairDlg#Logo" value="Advanced Installer"/>
-  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Click Repair to repair the installation of [ProductName].  If you want to review or change any of your installation settings, click Back.  Click Cancel to exit the wizard."/>
-  <STRING id="Control.Text.VerifyRepairDlg#TextNoClose" value="Click Repair to repair the installation of [ProductName].  If you want to review or change any of your installation settings, click Back.  Close the window to exit the wizard."/>
-  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Repair [ProductName]"/>
+  <STRING id="Control.Text.VerifyRepairDlg#Text" value="Click Repair to repair the installation of [ProductName] v[ProductVersion].  If you want to review or change any of your installation settings, click Back.  Click Cancel to exit the wizard."/>
+  <STRING id="Control.Text.VerifyRepairDlg#TextNoClose" value="Click Repair to repair the installation of [ProductName] v[ProductVersion].  If you want to review or change any of your installation settings, click Back.  Close the window to exit the wizard."/>
+  <STRING id="Control.Text.VerifyRepairDlg#Title" value="Repair [ProductName] v[ProductVersion]"/>
   <STRING id="Control.Help.WaitForCostingDlg#Icon" value="Exclamation icon|"/>
   <STRING id="Control.Text.WaitForCostingDlg#Text" value="Please wait while the installer finishes determining your disk space requirements."/>
-  <STRING id="Control.Text.WelcomeDlg#Description" value="The [Wizard] will install [ProductName] on your computer.  Click [Text_Next] to continue or Cancel to exit the [Wizard]."/>
-  <STRING id="Control.Text.WelcomeDlg#DescriptionNoClose" value="The [Wizard] will install [ProductName] on your computer. Click [Text_Next] to continue or close the window to exit the [Wizard]."/>
-  <STRING id="Control.Text.WelcomeDlg#Title" value="Welcome to [ProductName] [Wizard]"/>
-  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="The [Wizard] will install the Patch for [ProductName] on your computer.  Click [Text_Next] to continue or Cancel to exit the Patch [Wizard]."/>
-  <STRING id="Control.Text.PatchWelcomeDlg#DescriptionNoClose" value="The [Wizard] will install the Patch for [ProductName] on your computer.  Click [Text_Next] to continue or close the window to exit the Patch [Wizard]."/>
-  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Welcome to [ProductName] Patch [Wizard]"/>
+  <STRING id="Control.Text.WelcomeDlg#Description" value="The [Wizard] will install [ProductName] v[ProductVersion] on your computer.  Click [Text_Next] to continue or Cancel to exit the [Wizard]."/>
+  <STRING id="Control.Text.WelcomeDlg#DescriptionNoClose" value="The [Wizard] will install [ProductName] v[ProductVersion] on your computer. Click [Text_Next] to continue or close the window to exit the [Wizard]."/>
+  <STRING id="Control.Text.WelcomeDlg#Title" value="Welcome to [ProductName] v[ProductVersion] [Wizard]"/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Description" value="The [Wizard] will install the Patch for [ProductName] v[ProductVersion] on your computer.  Click [Text_Next] to continue or Cancel to exit the Patch [Wizard]."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#DescriptionNoClose" value="The [Wizard] will install the Patch for [ProductName] v[ProductVersion] on your computer.  Click [Text_Next] to continue or close the window to exit the Patch [Wizard]."/>
+  <STRING id="Control.Text.PatchWelcomeDlg#Title" value="Welcome to [ProductName] v[ProductVersion] Patch [Wizard]"/>
   <STRING id="Control.Text.ShortcutsDlg#Title" value="Configure Shortcuts"/>
   <STRING id="Control.Text.ShortcutsDlg#Description" value="Create application shortcuts"/>
-  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Create shortcuts for [ProductName] in the following locations:"/>
+  <STRING id="Control.Text.ShortcutsDlg#ShortcutsDlgText" value="Create shortcuts for [ProductName] v[ProductVersion] in the following locations:"/>
   <STRING id="Control.Text.ShortcutsDlg#DesktopShortcutsCheckBox" value="Desktop"/>
   <STRING id="Control.Text.ShortcutsDlg#StartmenuShortcutsCheckBox" value="Start Menu Programs folder"/>
   <STRING id="Control.Text.ShortcutsDlg#QuickLaunchShorcutsCheckBox" value="Quick Launch toolbar"/>
@@ -391,7 +391,7 @@
   <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirComboBox" value="{260}"/>
   <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirLabel" value="&amp;Start Menu Shortcuts Folder:"/>
   <STRING id="Control.Text.StartMenuShortcutsDlg#ShDirText" value="To install shortcuts in this folder, click &quot;[Text_Next]&quot;. To install to a different folder, enter it below or select one from the combo box."/>
-  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="This is the folder where [ProductName] shortcuts will be installed."/>
+  <STRING id="Control.Text.StartMenuShortcutsDlg#Description" value="This is the folder where [ProductName] v[ProductVersion] shortcuts will be installed."/>
   <STRING id="Control.Text.StartMenuShortcutsDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.StartMenuShortcutsDlg#Title" value="Select the Start Menu Shortcuts Folder"/>
   <STRING id="Control.Text.StartMenuShortcutsDlg#InfoText" value="In order to install in a subfolder, append the subfolder name, separated by a &quot;\&quot;."/>
@@ -436,14 +436,14 @@
   <STRING id="Control.Text.MsiRMFilesInUse#Text" value="The following applications are using files that need to be updated by this setup."/>
   <STRING id="Control.Text.MsiRMFilesInUse#Title" value="Files in Use"/>
   <STRING id="Control.Text.MsiRMFilesInUse#Logo" value="Advanced Installer"/>
-  <STRING id="Control.Text.ConfigureDlg#Title" value="Configure how [ProductName] will be installed"/>
+  <STRING id="Control.Text.ConfigureDlg#Title" value="Configure how [ProductName] v[ProductVersion] will be installed"/>
   <STRING id="Control.Text.OptionalFeatsDlg#Title" value="Optional features to install"/>
   <STRING id="Control.Text.SelectAll" value="&amp;Select All"/>
-  <STRING id="Control.Text.LanguageDlg#Title" value="Welcome to the [ProductName] [Wizard]"/>
+  <STRING id="Control.Text.LanguageDlg#Title" value="Welcome to the [ProductName] v[ProductVersion] [Wizard]"/>
   <STRING id="Control.Text.LanguageDlg#LangText" value="Select the setup language:"/>
   <STRING id="Control.Text.WelcomePrereqDlg#Title" value="Welcome to the Prerequisites [Wizard]"/>  
-  <STRING id="Control.Text.ProgressPrereqDlg#Title" value="[Progress1] prerequisites for [ProductName]"/>
-  <STRING id="Control.Text.ProgressPrereqDlg#Text" value="Please wait while the [Wizard] [Progress2] prerequisites for [ProductName].  This may take several minutes."/>
+  <STRING id="Control.Text.ProgressPrereqDlg#Title" value="[Progress1] prerequisites for [ProductName] v[ProductVersion]"/>
+  <STRING id="Control.Text.ProgressPrereqDlg#Text" value="Please wait while the [Wizard] [Progress2] prerequisites for [ProductName] v[ProductVersion].  This may take several minutes."/>
   <STRING id="Control.Text.ProgressPrereqDlg#Logo" value="Advanced Installer"/>
   <STRING id="Control.Text.ProgressPrereqDlg#ProgressBar" value="Progress done"/>
   <STRING id="Control.Text.ProgressPrereqDlg#StatusLabel" value="Status:"/>
@@ -460,7 +460,7 @@
   <STRING id="Control.Text.MultipleInstancesDlg#Title" value="Multiple Instances"/>  
   <STRING id="Control.Text.MultipleInstancesDlg#Upgrade" value="Maintaining or upgrading installed instances is available, please select the instance you want to maintain or upgrade and click next:"/>  
   <STRING id="Control.Text.WelcomePrereqDlg#SubTitle" value="Welcome to the Prerequisites [Wizard]"/>
-  <STRING id="Control.Text.WelcomePrereqDlg#Description" value="The setup has determined that some of the prerequisites needed to run [ProductName] are missing. This wizard will assist you in getting and installing those prerequisites. Click &quot;[Text_Next]&quot; to continue or &quot;[ButtonText_Cancel]&quot; to exit the [Wizard]."/>
+  <STRING id="Control.Text.WelcomePrereqDlg#Description" value="The setup has determined that some of the prerequisites needed to run [ProductName] v[ProductVersion] are missing. This wizard will assist you in getting and installing those prerequisites. Click &quot;[Text_Next]&quot; to continue or &quot;[ButtonText_Cancel]&quot; to exit the [Wizard]."/>
   <STRING id="Control.Text.InstallDlg#ByClickingAgreeCtrl" value="By clicking on &apos;Accept and Install&apos; you are agreeing to the &lt;a href=&quot;[AiLicenseAgreementLink]&quot;&gt;Licenses terms and conditions&lt;/a&gt;"/>
   <STRING id="Control.Text.InstallDlg#ByClickingAgreeCtrlSerene" value="&lt;a href=&quot;[AiLicenseAgreementLink]&quot;&gt;Terms and Privacy Policy&lt;/a&gt;"/>
   <STRING id="Control.Text.InstallDlg#TextAgreeCtrlSerene" value="By installing this application you agree to our "/>
@@ -477,26 +477,26 @@
   <STRING id="Metro.Control.ExtData.VerifyRemoveDlg#Remove" value="&amp;Remove"/>
   <STRING id="Metro.Control.ExtData.VerifyRepairDlg#Repair" value="&amp;Repair"/>
   <STRING id="Metro.Control.ExtData.WelcomeDlg.BrowseTxt" value="..."/>
-  <STRING id="Metro.Control.Text.AdminWelcomeDlg#Description" value="The [Wizard] will create a server image of [ProductName], at a specified network location.  Click &quot;[Text_Next]&quot; to continue or &quot;Cancel&quot; to exit the [Wizard]."/>
+  <STRING id="Metro.Control.Text.AdminWelcomeDlg#Description" value="The [Wizard] will create a server image of [ProductName] v[ProductVersion], at a specified network location.  Click &quot;[Text_Next]&quot; to continue or &quot;Cancel&quot; to exit the [Wizard]."/>
   <STRING id="Metro.Control.Text.ExitDialog#Readme" value="Readme"/>
   <STRING id="Metro.Control.Text.ExitDialog#Run" value="Run"/>
   <STRING id="Metro.Control.Text.Manufacturer" value="[Manufacturer]"/>
   <STRING id="Metro.Control.Text.OutOfDiskDlg#Text" value="Not enough disk space on the highlighted volumes. Choose a different destination drive, remove some files or install less features."/>
-  <STRING id="Metro.Control.Text.ProductName" value="[ProductName]"/>
+  <STRING id="Metro.Control.Text.ProductName" value="[ProductName] v[ProductVersion]"/>
   <STRING id="Metro.Control.Text.VerifyReadyDlg#Text_2" value="Installation will install to:"/>
   <STRING id="Metro.Control.Text.VerifyReadyDlg#Text_4" value="[PrimaryVolumeSpaceRequired]"/>
   <STRING id="Metro.Control.Text.VerifyReadyDlg#Text_5" value="Required space:"/>
-  <STRING id="Metro.Control.Text.VerifyRemoveDlg#Text" value="Click &quot;Remove&quot; to remove [ProductName] from your computer.  If you want to review or change any of your installation settings, click &quot;Back&quot;."/>
-  <STRING id="Metro.Control.Text.VerifyRepairDlg#Text" value="Click &quot;Repair&quot; to repair the installation of [ProductName].  If you want to review or change any of your installation settings, click &quot;Back&quot;."/>
-  <STRING id="Metro.Control.Text.WelcomeDlg#YouMustAgreeCtrl" value="You must agree to the &lt;a href=&quot;[AiLicenseAgreementLink]&quot;&gt;Licenses terms and conditions&lt;/a&gt; before you can install [ProductName]."/>
+  <STRING id="Metro.Control.Text.VerifyRemoveDlg#Text" value="Click &quot;Remove&quot; to remove [ProductName] v[ProductVersion] from your computer.  If you want to review or change any of your installation settings, click &quot;Back&quot;."/>
+  <STRING id="Metro.Control.Text.VerifyRepairDlg#Text" value="Click &quot;Repair&quot; to repair the installation of [ProductName] v[ProductVersion].  If you want to review or change any of your installation settings, click &quot;Back&quot;."/>
+  <STRING id="Metro.Control.Text.WelcomeDlg#YouMustAgreeCtrl" value="You must agree to the &lt;a href=&quot;[AiLicenseAgreementLink]&quot;&gt;Licenses terms and conditions&lt;/a&gt; before you can install [ProductName] v[ProductVersion]."/>
   <STRING id="Metro.Control.Text.WelcomeDlg.AgreeToLicense" value="I agree to the License terms and conditions."/>
-  <STRING id="Metro.Control.Text.ResumeDlg#Description" value="The [Wizard] will complete the installation of [ProductName] on your computer.  Click &quot;Install&quot; to continue."/>
+  <STRING id="Metro.Control.Text.ResumeDlg#Description" value="The [Wizard] will complete the installation of [ProductName] v[ProductVersion] on your computer.  Click &quot;Install&quot; to continue."/>
   <STRING id="Control.Text.InstallDlg#DescWithSize" value="Setup requires [PrimaryVolumeSpaceRequired] in:"/>
   <!-- Modern Theme strings -->
-  <STRING id="Modern.Control.Text.Dlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.Dlg#AppName" value="[ProductName] v[ProductVersion]"/>
   <STRING id="Modern.Control.Text.Dlg#Manufacturer" value="[Manufacturer]"/>
   <STRING id="Modern.Control.Text.Dlg#Setup" value="Setup"/>
-  <STRING id="Modern.Control.Text.AdminWelcomeDlg#Description" value="The [Wizard] will create a server image of [ProductName], at a specified network location."/>
+  <STRING id="Modern.Control.Text.AdminWelcomeDlg#Description" value="The [Wizard] will create a server image of [ProductName] v[ProductVersion], at a specified network location."/>
   <STRING id="Modern.Control.Text.AdminWelcomeDlg#BottomNote" value="Click &quot;[Text_Next]&quot; to continue."/>
   <STRING id="Modern.Control.Text.CustomizeDlg#SelectionTreeLabel" value="Select a feature to install:"/>
   <STRING id="Modern.Control.Text.CustomizeDlg#FeatureDescriptionLabel" value="Feature description:"/>
@@ -507,28 +507,28 @@
   <STRING id="Modern.Control.Help.MaintenanceTypeDlg#AddRemoveButton" value="Change which features are installed or remove specific features.|"/>
   <STRING id="Modern.Control.ExtData.MaintenanceTypeDlg#RepairButton" value="R&amp;epair/Reinstall"/>
   <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RepairButton" value="Repairs errors in the most recent installation state - fixes missing or corrupt files, shortcuts and registry entries.|"/>
-  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RemoveButton" value="Removes [ProductName] from your computer.|"/>
-  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#Description" value="The [Wizard] will allow you to change the way [ProductName] features are installed on your computer or even to remove [ProductName] from your computer."/>
+  <STRING id="Modern.Control.Help.MaintenanceTypeDlg#RemoveButton" value="Removes [ProductName] v[ProductVersion] from your computer.|"/>
+  <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#Description" value="The [Wizard] will allow you to change the way [ProductName] v[ProductVersion] features are installed on your computer or even to remove [ProductName] v[ProductVersion] from your computer."/>
   <STRING id="Modern.Control.Text.MaintenanceWelcomeDlg#BottomNote" value="Click &quot;[Text_Next]&quot; to continue."/>
   <STRING id="Modern.Control.Text.PrepareDlg#Description" value="Please wait while the [Wizard] prepares to guide you through the installation."/>
-  <STRING id="Modern.Control.Text.ResumeDlg#Description" value="The [Wizard] will complete the installation of [ProductName] on your computer."/>
+  <STRING id="Modern.Control.Text.ResumeDlg#Description" value="The [Wizard] will complete the installation of [ProductName] v[ProductVersion] on your computer."/>
   <STRING id="Modern.Control.Text.ResumeDlg#BottomNote" value="Click &quot;Install&quot; to continue or &quot;Cancel&quot; to exit the [Wizard]."/>
-  <STRING id="Modern.Control.Text.UserExit#Description" value="[ProductName] setup was interrupted.  Your system has not been modified.  To install this program at a later time, please run the installation again."/>
+  <STRING id="Modern.Control.Text.UserExit#Description" value="[ProductName] v[ProductVersion] setup was interrupted.  Your system has not been modified.  To install this program at a later time, please run the installation again."/>
   <STRING id="Modern.Control.Text.UserExit#BottomNote" value="Click the &quot;Finish&quot; button to exit the [Wizard]."/>
   <STRING id="Modern.Control.Text.VerifyReadyDlg#Title" value="Ready to Install"/>
-  <STRING id="Modern.Control.Text.VerifyReadyDlg#Description" value="The [Wizard] is ready to begin the [ProductName] installation."/>
+  <STRING id="Modern.Control.Text.VerifyReadyDlg#Description" value="The [Wizard] is ready to begin the [ProductName] v[ProductVersion] installation."/>
   <STRING id="Modern.Control.Text.VerifyReadyDlg#BottomNote" value="Click &quot;Install&quot; to begin the installation.  If you want to review or change any of your installation settings, click &quot;Back&quot;.  Click &quot;Cancel&quot; to exit the wizard."/>
-  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Title" value="Remove [ProductName]"/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#Title" value="Remove [ProductName] v[ProductVersion]"/>
   <STRING id="Modern.Control.Text.VerifyRemoveDlg#Description" value="You have chosen to remove the program from your computer."/>
-  <STRING id="Modern.Control.Text.VerifyRemoveDlg#BottomNote" value="Click &quot;Remove&quot; to remove [ProductName] from your computer.  If you want to review or change any of your installation settings, click &quot;Back&quot;.  Click &quot;Cancel&quot; to exit the wizard."/>
-  <STRING id="Modern.Control.Text.VerifyRepairDlg#Title" value="Repair [ProductName]"/>
-  <STRING id="Modern.Control.Text.VerifyRepairDlg#Description" value="The [Wizard] is ready to begin the repair of [ProductName]."/>
-  <STRING id="Modern.Control.Text.VerifyRepairDlg#BottomNote" value="Click &quot;Repair&quot; to repair the installation of [ProductName].  If you want to review or change any of your installation settings, click &quot;Back&quot;.  Click &quot;Cancel&quot; to exit the wizard."/>
-  <STRING id="Modern.Control.Text.WelcomeDlg#Title" value="Welcome to the [ProductName] [Wizard]"/>
-  <STRING id="Modern.Control.Text.WelcomeDlg#Description" value="The [Wizard] will install [ProductName] on your computer. "/>
+  <STRING id="Modern.Control.Text.VerifyRemoveDlg#BottomNote" value="Click &quot;Remove&quot; to remove [ProductName] v[ProductVersion] from your computer.  If you want to review or change any of your installation settings, click &quot;Back&quot;.  Click &quot;Cancel&quot; to exit the wizard."/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Title" value="Repair [ProductName] v[ProductVersion]"/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#Description" value="The [Wizard] is ready to begin the repair of [ProductName] v[ProductVersion]."/>
+  <STRING id="Modern.Control.Text.VerifyRepairDlg#BottomNote" value="Click &quot;Repair&quot; to repair the installation of [ProductName] v[ProductVersion].  If you want to review or change any of your installation settings, click &quot;Back&quot;.  Click &quot;Cancel&quot; to exit the wizard."/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Title" value="Welcome to the [ProductName] v[ProductVersion] [Wizard]"/>
+  <STRING id="Modern.Control.Text.WelcomeDlg#Description" value="The [Wizard] will install [ProductName] v[ProductVersion] on your computer. "/>
   <STRING id="Modern.Control.Text.WelcomeDlg#BottomNote" value="Click &quot;[Text_Next]&quot; to continue."/>
-  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Title" value="Welcome to the [ProductName] Patch [Wizard]"/>
-  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Description" value="The [Wizard] will install the Patch for [ProductName] on your computer. Click &quot;[Text_Next]&quot; to continue or &quot;Cancel&quot; to exit the Patch [Wizard]."/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Title" value="Welcome to the [ProductName] v[ProductVersion] Patch [Wizard]"/>
+  <STRING id="Modern.Control.Text.PatchWelcomeDlg#Description" value="The [Wizard] will install the Patch for [ProductName] v[ProductVersion] on your computer. Click &quot;[Text_Next]&quot; to continue or &quot;Cancel&quot; to exit the Patch [Wizard]."/>
   <STRING id="Modern.Control.Text.LicenseAgreementDlg#AgreementLabel" value="Be sure to carefully read and understand all the rights and restrictions described in the license terms. You must accept the license terms before you can install the software."/>
   <STRING id="Modern.Control.Text.LicenseAgreementDlg#ButtonLabel" value="Press the Page Down key to see more text."/>
   <STRING id="Modern.Control.Text.LicenseAgreementDlg#PrintButton" value="Print"/>
@@ -545,24 +545,24 @@
   <STRING id="Modern.Control.Text.SetupTypeDlg#VolumeCostListLabel" value="Disk space requirements:"/>
   <STRING id="Modern.Control.Text.ShortcutsDlg#Title" value="Configure Shortcuts"/>
   <STRING id="Modern.Control.Text.ShortcutsDlg#Description" value="Create application shortcuts."/>
-  <STRING id="Modern.Control.Text.ShortcutsDlg#ShortcutsLabel" value="Create shortcuts for [ProductName] in the following locations:"/>
+  <STRING id="Modern.Control.Text.ShortcutsDlg#ShortcutsLabel" value="Create shortcuts for [ProductName] v[ProductVersion] in the following locations:"/>
   <STRING id="Modern.Control.Text.SQLConnectionDlg#Description" value="Configure SQL Connection."/>
-  <STRING id="Modern.Control.Text.FatalError#Description" value="[ProductName] setup ended prematurely because of an error.  Your system has not been modified.  To install this program at a later time, please run the installation again."/>
+  <STRING id="Modern.Control.Text.FatalError#Description" value="[ProductName] v[ProductVersion] setup ended prematurely because of an error.  Your system has not been modified.  To install this program at a later time, please run the installation again."/>
   <STRING id="Modern.Control.Text.UserRegistrationDlg#Description" value="Please enter your customer information."/>
   <STRING id="Modern.Control.Text.TomcatServerDlg#Description" value="Please configure the Tomcat server attributes."/>
-  <STRING id="Modern.Control.Text.LanguageDlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.LanguageDlg#AppName" value="[ProductName] v[ProductVersion]"/>
   <STRING id="Modern.Control.Text.LanguageDlg#Manufacturer" value="[Manufacturer]"/>
   <STRING id="Modern.Control.Text.LanguageDlg#Setup" value="Setup"/>
-  <STRING id="Modern.Control.Text.MultipleInstancesDlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.MultipleInstancesDlg#AppName" value="[ProductName] v[ProductVersion]"/>
   <STRING id="Modern.Control.Text.MultipleInstancesDlg#Manufacturer" value="[Manufacturer]"/>
   <STRING id="Modern.Control.Text.MultipleInstancesDlg#Setup" value="Setup"/>
-  <STRING id="Modern.Control.Text.PreparePrereqDlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.PreparePrereqDlg#AppName" value="[ProductName] v[ProductVersion]"/>
   <STRING id="Modern.Control.Text.PreparePrereqDlg#Manufacturer" value="[Manufacturer]"/>
   <STRING id="Modern.Control.Text.PreparePrereqDlg#Setup" value="Setup"/>
-  <STRING id="Modern.Control.Text.WelcomePrereqDlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.WelcomePrereqDlg#AppName" value="[ProductName] v[ProductVersion]"/>
   <STRING id="Modern.Control.Text.WelcomePrereqDlg#Manufacturer" value="[Manufacturer]"/>
   <STRING id="Modern.Control.Text.WelcomePrereqDlg#Setup" value="Setup"/>
-  <STRING id="Modern.Control.Text.ProgressPrereqDlg#AppName" value="[ProductName]"/>
+  <STRING id="Modern.Control.Text.ProgressPrereqDlg#AppName" value="[ProductName] v[ProductVersion]"/>
   <STRING id="Modern.Control.Text.ProgressPrereqDlg#Manufacturer" value="[Manufacturer]"/>
   <STRING id="Modern.Control.Text.ProgressPrereqDlg#Setup" value="Setup"/>
   <!-- Graphite Theme strings -->
@@ -570,10 +570,10 @@
   <STRING id="Graphite.Control.Text.Dlg#PreparingLabel" value="Preparing installation"/>
   <STRING id="Graphite.Control.Text.Dlg#InstallingLabel" value="Installing"/>
   <STRING id="Graphite.Control.Text.Dlg#FinalizingLabel" value="Finalizing installation"/>
-  <STRING id="Graphite.Control.Text.WelcomeDlg#Description" value="The [Wizard] will install [ProductName] on your computer.  Please click &quot;[Text_Next]&quot; to continue."/>
-  <STRING id="Graphite.Control.Text.WelcomeDlg#Title" value="Welcome to [ProductName] Setup"/>
-  <STRING id="Graphite.Control.Text.WelcomeDlg#Intro" value="Welcome to the Wizard for [ProductName] Setup."/>
-  <STRING id="Graphite.Control.Text.PrepareDlg#Title" value="Preparing your [ProductName] Setup"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Description" value="The [Wizard] will install [ProductName] v[ProductVersion] on your computer.  Please click &quot;[Text_Next]&quot; to continue."/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Title" value="Welcome to [ProductName] v[ProductVersion] Setup"/>
+  <STRING id="Graphite.Control.Text.WelcomeDlg#Intro" value="Welcome to the Wizard for [ProductName] v[ProductVersion] Setup."/>
+  <STRING id="Graphite.Control.Text.PrepareDlg#Title" value="Preparing your [ProductName] v[ProductVersion] Setup"/>
   <STRING id="Graphite.Control.Text.PrepareDlg#Description" value="Please wait while the [Wizard] prepares to guide you through the installation."/>
   <STRING id="Graphite.Control.Text.ReadmeDlg#Title" value="ReadMe Information"/>
   <STRING id="Graphite.Control.Text.ReadmeDlg#Description" value="Please read the following text carefully."/>
@@ -583,18 +583,18 @@
   <STRING id="Graphite.Control.Text.PrerequisitesDlg#Title" value="Prerequisites"/>
   <STRING id="Graphite.Control.Text.PrerequisitesDlg#PrerequisiteSelector" value="{110}{80}{70}{70}Name,Required,Found,Action"/>
   <STRING id="Graphite.Control.Text.FolderDlg#Title" value="Installation Folder"/>
-  <STRING id="Graphite.Control.Text.FolderDlg#Intro" value="This is the folder where [ProductName] will be installed."/>
+  <STRING id="Graphite.Control.Text.FolderDlg#Intro" value="This is the folder where [ProductName] v[ProductVersion] will be installed."/>
   <STRING id="Graphite.Control.Text.FolderDlg#Description" value="To install in this folder, click &quot;[Text_Next]&quot;. To install to a different folder, enter it below or click &quot;Browse&quot;."/>
   <STRING id="Graphite.Control.Text.FolderDlg#SpaceRequiredLabel" value="Space Required:"/>
   <STRING id="Graphite.Control.Text.FolderDlg#AvailableSpaceLabel" value="Available Disk Space:"/>
   <STRING id="Graphite.Control.Text.FolderDlg#RemainingSpaceLabel" value="Remaining Disk Space:"/>
   <STRING id="Graphite.Control.Text.VerifyReadyDlg#Title" value="Ready to Install"/>
-  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Intro" value="The [Wizard] is ready to begin the [ProductName] installation."/>
+  <STRING id="Graphite.Control.Text.VerifyReadyDlg#Intro" value="The [Wizard] is ready to begin the [ProductName] v[ProductVersion] installation."/>
   <STRING id="Graphite.Control.Text.VerifyReadyDlg#Description" value="Click &quot;Install&quot; to begin the installation.  If you want to review or change any of your installation settings, click &quot;Back&quot;.  Click &quot;Cancel&quot; to exit the wizard."/>
-  <STRING id="Graphite.Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName]"/>
-  <STRING id="Graphite.Control.Text.ExitDialog#Title" value="[ProductName] Setup Complete"/>
-  <STRING id="Graphite.Control.Text.ExitDialog#Intro" value="[ProductName] has been installed successfully."/>
-  <STRING id="Graphite.Control.Text.ExitDialog#IntroUninstall" value="[ProductName] has been uninstalled successfully."/>
+  <STRING id="Graphite.Control.Text.ProgressDlg#Title" value="[Progress1] [ProductName] v[ProductVersion]"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Title" value="[ProductName] v[ProductVersion] Setup Complete"/>
+  <STRING id="Graphite.Control.Text.ExitDialog#Intro" value="[ProductName] v[ProductVersion] has been installed successfully."/>
+  <STRING id="Graphite.Control.Text.ExitDialog#IntroUninstall" value="[ProductName] v[ProductVersion] has been uninstalled successfully."/>
   <STRING id="Graphite.Control.Text.SetupTypeDlg#Title" value="Setup Type"/>
   <STRING id="Graphite.Control.Text.SetupTypeDlg#Description" value="Please choose the setup type that best suits your needs."/>
   <STRING id="Graphite.RadioButton.Text.SetupTypeOption#Complete" value="Complete"/>
@@ -603,39 +603,39 @@
   <STRING id="Graphite.Control.Text.CustomizeDlg#Title" value="Custom Setup"/>
   <STRING id="Graphite.Control.Text.CustomizeDlg#Description" value="Please select the program features you would like installed."/>
   <STRING id="Graphite.Control.Text.CustomizeDlg#SpaceRequiredLabel" value="Space required for selected components :"/>
-  <STRING id="Graphite.Control.Text.UserExit#Title" value="[ProductName] Setup was Interrupted"/>
-  <STRING id="Graphite.Control.Text.UserExit#Description1" value="[ProductName] setup was interrupted.  Your system has not been modified.  To install this program at a later time, please run the installation again."/>
+  <STRING id="Graphite.Control.Text.UserExit#Title" value="[ProductName] v[ProductVersion] Setup was Interrupted"/>
+  <STRING id="Graphite.Control.Text.UserExit#Description1" value="[ProductName] v[ProductVersion] setup was interrupted.  Your system has not been modified.  To install this program at a later time, please run the installation again."/>
   <STRING id="Graphite.Control.Text.UserExit#Description2" value="Click the &quot;Finish&quot; button to exit the [Wizard]."/>
-  <STRING id="Graphite.Control.Text.FatalError#Title" value="[ProductName] Setup Ended Prematurely"/>
-  <STRING id="Graphite.Control.Text.FatalError#Description1" value="[ProductName] setup ended prematurely because of an error.  Your system has not been modified.  To install this program at a later time, please run the installation again."/>
+  <STRING id="Graphite.Control.Text.FatalError#Title" value="[ProductName] v[ProductVersion] Setup Ended Prematurely"/>
+  <STRING id="Graphite.Control.Text.FatalError#Description1" value="[ProductName] v[ProductVersion] setup ended prematurely because of an error.  Your system has not been modified.  To install this program at a later time, please run the installation again."/>
   <STRING id="Graphite.Control.Text.FatalError#Description2" value="Click the &quot;Finish&quot; button to exit the [Wizard]."/>
-  <STRING id="Graphite.Control.Text.MaintenanceWelcomeDlg#Description" value="The [Wizard] will allow you to change the way [ProductName] features are installed on your computer or even to remove [ProductName] from your computer.  Click &quot;[Text_Next]&quot; to continue or &quot;Cancel&quot; to exit the [Wizard]."/>
+  <STRING id="Graphite.Control.Text.MaintenanceWelcomeDlg#Description" value="The [Wizard] will allow you to change the way [ProductName] v[ProductVersion] features are installed on your computer or even to remove [ProductName] v[ProductVersion] from your computer.  Click &quot;[Text_Next]&quot; to continue or &quot;Cancel&quot; to exit the [Wizard]."/>
   <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#ChangeText" value="Change the state of current installation - add or remove program features."/>
-  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RemoveText" value="Removes [ProductName] from your computer."/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RemoveText" value="Removes [ProductName] v[ProductVersion] from your computer."/>
   <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#RepairText" value="Repairs errors in the most recent installation state - fixes missing or corrupt files, shortcuts and registry entries."/>
   <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Description" value="Please choose the maintenance operation you wish to perform and click &quot;[Text_Next]&quot;."/>
-  <STRING id="Graphite.MaintenanceTypeDlg#Title" value="Welcome to [ProductName] Maintenance"/>
-  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Intro" value="Welcome to [ProductName] Maintenance Wizard."/>
+  <STRING id="Graphite.MaintenanceTypeDlg#Title" value="Welcome to [ProductName] v[ProductVersion] Maintenance"/>
+  <STRING id="Graphite.Control.Text.MaintenanceTypeDlg#Intro" value="Welcome to [ProductName] v[ProductVersion] Maintenance Wizard."/>
   <STRING id="RadioButton.Text.MaintenanceTypeOption#Modify" value="Modify"/>
   <STRING id="RadioButton.Text.MaintenanceTypeOption#Repair" value="Repair"/>
   <STRING id="RadioButton.Text.MaintenanceTypeOption#Remove" value="Remove"/>
-  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Description" value="Click &quot;Remove&quot; to remove [ProductName] from your computer.  If you want to review or change any of your installation settings, click &quot;Back&quot;.  Click &quot;Cancel&quot; to exit the wizard."/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Description" value="Click &quot;Remove&quot; to remove [ProductName] v[ProductVersion] from your computer.  If you want to review or change any of your installation settings, click &quot;Back&quot;.  Click &quot;Cancel&quot; to exit the wizard."/>
   <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Title" value="Ready to Remove"/>
-  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Intro" value="The [Wizard] is ready to begin the [ProductName] remove."/>
-  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Description" value="Click &quot;Repair&quot; to repair the installation of [ProductName].  If you want to review or change any of your installation settings, click &quot;Back&quot;.  Click &quot;Cancel&quot; to exit the wizard."/>
+  <STRING id="Graphite.Control.Text.VerifyRemoveDlg#Intro" value="The [Wizard] is ready to begin the [ProductName] v[ProductVersion] remove."/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Description" value="Click &quot;Repair&quot; to repair the installation of [ProductName] v[ProductVersion].  If you want to review or change any of your installation settings, click &quot;Back&quot;.  Click &quot;Cancel&quot; to exit the wizard."/>
   <STRING id="Graphite.Control.Text.VerifyRepairDlg#Title" value="Ready to Repair"/>
-  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Intro" value="The [Wizard] is ready to begin the [ProductName] repair."/>
-  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Title" value="Welcome to [ProductName] Patch Setup"/>
-  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Intro" value="Welcome to the Wizard for [ProductName] Patch Setup."/>
-  <STRING id="Graphite.Control.Text.ResumeDlg#Title" value="Resuming [ProductName] Setup"/>
+  <STRING id="Graphite.Control.Text.VerifyRepairDlg#Intro" value="The [Wizard] is ready to begin the [ProductName] v[ProductVersion] repair."/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Title" value="Welcome to [ProductName] v[ProductVersion] Patch Setup"/>
+  <STRING id="Graphite.Control.Text.PatchWelcomeDlg#Intro" value="Welcome to the Wizard for [ProductName] v[ProductVersion] Patch Setup."/>
+  <STRING id="Graphite.Control.Text.ResumeDlg#Title" value="Resuming [ProductName] v[ProductVersion] Setup"/>
   <STRING id="Graphite.Control.Text.MsiRMFilesInUse#Description" value="Some files that need to be updated are currently in use"/>
-  <STRING id="Graphite.Control.Text.AdminInstallPointDlg#Title" value="Network Location of [ProductName] Server Image"/>
+  <STRING id="Graphite.Control.Text.AdminInstallPointDlg#Title" value="Network Location of [ProductName] v[ProductVersion] Server Image"/>
   <STRING id="Graphite.Control.Text.SQLConnectionDlg#Title" value="Configure SQL Database"/>
   <STRING id="Graphite.Control.Text.TomcatServerDlg#Title" value="Configure Tomcat Server Attributes"/>
   <!-- Azure Theme strings -->
-  <STRING id="Azure.Control.Text.PrepareDlg#Title" value="Preparing [ProductName] [Wizard]"/>
+  <STRING id="Azure.Control.Text.PrepareDlg#Title" value="Preparing [ProductName] v[ProductVersion] [Wizard]"/>
   <STRING id="Azure.Control.Text.PrepareDlg#Description" value="Please wait while the [Wizard] prepares to guide you through the installation."/>
-  <STRING id="Azure.Control.Text.WelcomeDlg#Title" value="Welcome to the [ProductName] [Wizard]"/>
+  <STRING id="Azure.Control.Text.WelcomeDlg#Title" value="Welcome to the [ProductName] v[ProductVersion] [Wizard]"/>
   <STRING id="Azure.Control.Text.WelcomeDlg#Description" value="To continue you must read and accept the terms of this agreement. If you do not want to accept the [Manufacturer] Licence Terms, close this window to cancel the installation."/>
   <STRING id="Azure.Control.Text.WelcomeDlg#EulaAgreeCheckBox" value="I &amp;accept the terms of this agreement."/>
   <STRING id="Azure.Control.Text.WelcomeDlg#ContinueButton" value="&amp;Continue"/>
@@ -654,13 +654,13 @@
   <STRING id="Azure.Control.Text.OutOfRbDiskDlg#OkButton" value="OK"/>
   <STRING id="Azure.Control.Text.OutOfDiskDlg#Title" value="Disk space required for the installation exceeds available disk space"/>
   <STRING id="Azure.Control.Text.ProgressDlg#Title" value="Installation Progress"/>
-  <STRING id="Azure.Control.Text.ProgressDlg#Description" value="[Progress1] [ProductName]..."/>
+  <STRING id="Azure.Control.Text.ProgressDlg#Description" value="[Progress1] [ProductName] v[ProductVersion]..."/>
   <STRING id="Azure.Control.Text.ExitDialog#Finish" value="&amp;Close"/>
-  <STRING id="Azure.Control.Text.ExitDialog#LaunchProdCheckBox" value="Run [ProductName]"/>
+  <STRING id="Azure.Control.Text.ExitDialog#LaunchProdCheckBox" value="Run [ProductName] v[ProductVersion]"/>
   <STRING id="Azure.Control.Text.ExitDialog#ViewReadmeCheckBox" value="View Readme File"/>
-  <STRING id="Azure.Control.Text.ExitDialog#DescriptionConfigured" value="[ProductName] has been successfully configured."/>
-  <STRING id="Azure.Control.Text.ExitDialog#DescriptionInstalled" value="[ProductName] has been successfully installed."/>
-  <STRING id="Azure.Control.Text.CustomizeDlg#Text" value="Select which components of [ProductName] will be installed"/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionConfigured" value="[ProductName] v[ProductVersion] has been successfully configured."/>
+  <STRING id="Azure.Control.Text.ExitDialog#DescriptionInstalled" value="[ProductName] v[ProductVersion] has been successfully installed."/>
+  <STRING id="Azure.Control.Text.CustomizeDlg#Text" value="Select which components of [ProductName] v[ProductVersion] will be installed"/>
   <STRING id="Azure.Control.Text.CustomizeDlg#ItemDescription" value="Multiline description of the currently selected item."/>
   <STRING id="Azure.Control.Text.CustomizeDlg#TotalSpaceText" value="[PrimaryVolumeSpaceRequired]"/>
   <STRING id="Azure.Control.Text.CustomizeDlg#AvailableSpaceText" value="[PrimaryVolumeSpaceAvailable]"/>
@@ -669,9 +669,9 @@
   <STRING id="Azure.Control.Text.DiskCostDlg#Title" value="Disk space required for the selected features"/>
   <STRING id="Azure.Control.Text.FilesInUse#Title" value="Some files that need to be updated are currently in use"/>
   <STRING id="Azure.Control.Text.MsiRMFilesInUse#Title" value="Some files that need to be updated are currently in use"/>
-  <STRING id="Azure.Control.Text.VerifyReadyDlg#Title" value="Begin installation of [ProductName]"/>
-  <STRING id="Azure.Control.Text.InstallTypeDlg#Title" value="[ProductName] installation type"/>
-  <STRING id="Azure.Control.Text.ExtRegDlg#Title" value="Associate [ProductName] with file types"/>
+  <STRING id="Azure.Control.Text.VerifyReadyDlg#Title" value="Begin installation of [ProductName] v[ProductVersion]"/>
+  <STRING id="Azure.Control.Text.InstallTypeDlg#Title" value="[ProductName] v[ProductVersion] installation type"/>
+  <STRING id="Azure.Control.Text.ExtRegDlg#Title" value="Associate [ProductName] v[ProductVersion] with file types"/>
   <STRING id="Azure.Control.Text.LicenseAgreementDlg#Title" value="Read the [Manufacturer] Licence Terms"/>
   <STRING id="Azure.Control.Text.LicenseAgreementDlg#Description" value="To continue you must read and accept the terms of this agreement. If you do not want to accept the [Manufacturer] Licence Terms, close this window to cancel the installation."/>
   <STRING id="Azure.Control.Text.LicenseAgreementDlg#EulaAgreeCheckBox" value="I &amp;accept the terms of this agreement."/>
@@ -680,27 +680,27 @@
   <STRING id="Azure.Control.Text.ReadmeDlg#Title" value="Please read the following text carefully"/>
   <STRING id="Azure.Control.Text.ShortcutsDlg#Title" value="Create application shortcuts"/>
   <STRING id="Azure.Control.Text.SQLConnectionDlg#Title" value="Configure SQL Connection"/>
-  <STRING id="Azure.Control.Text.UpgradeDlg#Title" value="Search and upgrade older versions of [ProductName]"/>
+  <STRING id="Azure.Control.Text.UpgradeDlg#Title" value="Search and upgrade older versions of [ProductName] v[ProductVersion]"/>
   <STRING id="Azure.Control.Text.StartMenuShortcutsDlg#Title" value="Select the Start Menu Shortcuts Folder"/>
   <STRING id="Azure.Control.Text.UserRegistrationDlg#Title" value="Please enter your customer information"/>
-  <STRING id="Azure.Control.Text.MaintenanceTypeDlg#Title" value="Change your installation of [ProductName]"/>
-  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RemoveCommand" value="Removes [ProductName] from your computer.|"/>
+  <STRING id="Azure.Control.Text.MaintenanceTypeDlg#Title" value="Change your installation of [ProductName] v[ProductVersion]"/>
+  <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RemoveCommand" value="Removes [ProductName] v[ProductVersion] from your computer.|"/>
   <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RemoveCommand" value="Remove"/>
   <STRING id="Azure.Control.Help.MaintenanceTypeDlg#RepairCommand" value="Repairs errors in the most recent installation state.|"/>
   <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#RepairCommand" value="Repair"/>
   <STRING id="Azure.Control.Help.MaintenanceTypeDlg#ModifyCommand" value="Change which features are installed.|"/>
   <STRING id="Azure.Control.ExtData.MaintenanceTypeDlg#ModifyCommand" value="Add or Remove Features"/>
-  <STRING id="Azure.Control.Text.VerifyRemoveDlg#Title" value="Begin remove of [ProductName]"/>
-  <STRING id="Azure.Control.Text.VerifyRepairDlg#Title" value="Begin repair of [ProductName]"/>
+  <STRING id="Azure.Control.Text.VerifyRemoveDlg#Title" value="Begin remove of [ProductName] v[ProductVersion]"/>
+  <STRING id="Azure.Control.Text.VerifyRepairDlg#Title" value="Begin repair of [ProductName] v[ProductVersion]"/>
   <STRING id="Azure.Control.Text.SetupTypeDlg#Title" value="Choose the installation you want"/>
-  <STRING id="Azure.Control.Text.SetupTypeDlg#Description" value="Please choose your preferred type of [ProductName] installation below:"/>
+  <STRING id="Azure.Control.Text.SetupTypeDlg#Description" value="Please choose your preferred type of [ProductName] v[ProductVersion] installation below:"/>
   <STRING id="Azure.Control.Help.SetupTypeDlg#TypicalCommand" value="Start installation of default features.|"/>
   <STRING id="Azure.Control.ExtData.SetupTypeDlg#TypicalCommand" value="&amp;Typical"/>
   <STRING id="Azure.Control.Help.SetupTypeDlg#CustomCommand" value="Select which features are installed.|"/>
   <STRING id="Azure.Control.ExtData.SetupTypeDlg#CustomCommand" value="&amp;Custom"/>
   <STRING id="Azure.Control.Help.SetupTypeDlg#CompleteCommand" value="Start installation of all features.|"/>
   <STRING id="Azure.Control.ExtData.SetupTypeDlg#CompleteCommand" value="C&amp;omplete"/>
-  <STRING id="Azure.Control.Text.AdminInstallPointDlg#Title" value="Select a network location for the server image of [ProductName] product"/>
+  <STRING id="Azure.Control.Text.AdminInstallPointDlg#Title" value="Select a network location for the server image of [ProductName] v[ProductVersion] product"/>
   <STRING id="Azure.Control.Help.ClientServerDlg#ClientCommand" value="Installs the client configuration.|"/>
   <STRING id="Azure.Control.ExtData.ClientServerDlg#ClientCommand" value="Client"/>
   <STRING id="Azure.Control.Help.ClientServerDlg#ClientCommand" value="Installs the client configuration.|"/>
@@ -710,7 +710,7 @@
   <STRING id="Azure.Control.Help.ClientServerDlg#CompleteCommand" value="Installs both client and server configurations.|"/>
   <STRING id="Azure.Control.ExtData.ClientServerDlg#CompleteCommand" value="Complete"/>
   <STRING id="Azure.Control.Text.TomcatServerDlg#Title" value="Configure the Tomcat server attributes"/>
-  <STRING id="Azure.Control.Text.ProgressPrereqDlg#Description" value="[Progress1] prerequisites for [ProductName]..."/>  
+  <STRING id="Azure.Control.Text.ProgressPrereqDlg#Description" value="[Progress1] prerequisites for [ProductName] v[ProductVersion]..."/>  
   <STRING id="Azure.Control.Text.PreparePrereqDlg#Description" value="Please wait while the [Wizard] prepares to guide you through the prerequisites installation."/>
   <STRING id="Azure.Control.Text.PreparePrereqDlg#Title" value="Preparing prerequisites [Wizard]"/>
   <!-- Spring Theme strings -->
@@ -719,14 +719,14 @@
   <STRING id="Spring.Control.Text.SetupTypeDlg#TypicalText" value="Installs most common features"/>
   <STRING id="Spring.Control.Text.SetupTypeDlg#CustomText" value="Choose features to install"/>
   <STRING id="Spring.Control.Text.CustomizeDlg#Title" value="Installation Option"/>
-  <STRING id="Spring.Control.Text.CustomizeDlg#Desc" value="Customize how [ProductName] will be installed"/>
+  <STRING id="Spring.Control.Text.CustomizeDlg#Desc" value="Customize how [ProductName] v[ProductVersion] will be installed"/>
   <STRING id="Spring.Control.Text.CustomizeDlg#SpaceReq" value="Total space required on drive: [PrimaryVolumeSpaceRequired]"/>
   <STRING id="Spring.Control.Text.CustomizeDlg#SpaceAvail" value="Space available on drive: [PrimaryVolumeSpaceAvailable]"/>
   <STRING id="Spring.Control.Text.FolderDlg#SpaceRem" value="Remaining free space on drive: [PrimaryVolumeSpaceRemaining]"/>
   <STRING id="Spring.Control.Text.ExitDialog#EventInstalled" value="installed"/>
   <STRING id="Spring.Control.Text.ExitDialog#EventConfigured" value="configured"/>
   <STRING id="Spring.Control.Text.ExitDialog#EventRemoved" value="removed"/>
-  <STRING id="Spring.Control.Text.ExitDialog#Description" value="[ProductName] has been successfully [Finish1]."/>
+  <STRING id="Spring.Control.Text.ExitDialog#Description" value="[ProductName] v[ProductVersion] has been successfully [Finish1]."/>
   <STRING id="Spring.Control.Text.OutOfDiskDlg#Title" value="More available disk space required"/>
   <STRING id="Spring.Control.Text.OutOfRbDiskDlg#Title" value="Disable Rollback?"/>
   <STRING id="Spring.Control.Text.MaintTypeDlg#ModifyLabel" value="Modify"/>
@@ -734,8 +734,8 @@
   <STRING id="Spring.Control.Text.MaintTypeDlg#RemoveLabel" value="Uninstall"/>
   <STRING id="Spring.Control.Text.MaintTypeDlg#ModifyDesc" value="Add or remove features"/>
   <STRING id="Spring.Control.Text.MaintTypeDlg#RepairDesc" value="Fix missing or corrupt files"/>
-  <STRING id="Spring.Control.Text.MaintTypeDlg#RemoveDesc" value="Remove [ProductName]"/>
-  <STRING id="Spring.Control.Text.MaintTypeDlg#Title" value="Change [ProductName] Installation"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#RemoveDesc" value="Remove [ProductName] v[ProductVersion]"/>
+  <STRING id="Spring.Control.Text.MaintTypeDlg#Title" value="Change [ProductName] v[ProductVersion] Installation"/>
   <STRING id="Spring.Control.Text.ExitDialog#Close" value="Close"/>
   <STRING id="Spring.Control.Text.ClientServerDlg#CompleteLabel" value="Complete"/>
   <STRING id="Spring.Control.Text.ClientServerDlg#CompleteText" value="Both client and server"/>
@@ -744,7 +744,7 @@
   <STRING id="Spring.Control.Text.ClientServerDlg#TypicalLabel" value="Client"/>
   <STRING id="Spring.Control.Text.ClientServerDlg#TypicalText" value="Install only client config"/>
   <!-- Air Theme strings -->
-  <STRING id="Air.Control.Text.WelcomeDlg#Title" value="[ProductName] [Wizard]"/>
+  <STRING id="Air.Control.Text.WelcomeDlg#Title" value="[ProductName] v[ProductVersion] [Wizard]"/>
   <STRING id="Air.Control.Text.FolderDlg#SubTitle" value="Select installation folder"/>
   <STRING id="Air.Control.Text.PrepareDlg#Description" value="Please wait while the setup initializes."/>
   <STRING id="Air.Control.Text.LicenseAgreementDlg#SubTitle" value="License agreement"/>
@@ -754,11 +754,11 @@
   <STRING id="Air.Control.Help.ExitDialog#LaunchProdCheckBox" value="Run the application|"/>
   <STRING id="Air.Control.Text.ExitDialog#LaunchProdCheckBox" value="Run the application"/>
   <STRING id="Air.Control.Help#Back" value="Back|"/>
-  <STRING id="Air.Control.Text.WelcomePrereqDlg#Title" value="[ProductName] [Wizard]"/>
+  <STRING id="Air.Control.Text.WelcomePrereqDlg#Title" value="[ProductName] v[ProductVersion] [Wizard]"/>
   <STRING id="Air.Control.Text.WelcomePrereqDlg#SubTitle" value="Welcome to the Prerequisites [Wizard]"/>
-  <STRING id="Air.Control.Text.ProgressPrereqDlg#Title" value="[ProductName] [Wizard]"/>
-  <STRING id="Air.Control.Text.ProgressPrereqDlg#SubTitle" value="[Progress1] prerequisites for [ProductName]..."/> 
-  <STRING id="Air.Control.Text.MultipleInstancesDlg#Title" value="[ProductName] [Wizard]"/>
+  <STRING id="Air.Control.Text.ProgressPrereqDlg#Title" value="[ProductName] v[ProductVersion] [Wizard]"/>
+  <STRING id="Air.Control.Text.ProgressPrereqDlg#SubTitle" value="[Progress1] prerequisites for [ProductName] v[ProductVersion]..."/> 
+  <STRING id="Air.Control.Text.MultipleInstancesDlg#Title" value="[ProductName] v[ProductVersion] [Wizard]"/>
   <STRING id="Air.Control.Text.MultipleInstancesDlg#SubTitle" value="Multiple Instances"/>
   <!-- ActionText table -->
   <STRING id="ActionText.Description.AI_DownloadPrereq" value="Downloading prerequisite software"/>
@@ -1108,7 +1108,7 @@
   <STRING id="Error.5" value="The installer has encountered an unexpected error installing this package. This may indicate a problem with this package. The error code is [1]. {{The arguments are: [2], [3], [4]}}"/>
   <STRING id="Error.7" value="{{Disk full: }}"/>
   <STRING id="Error.8" value="Action [Time]: [1]. [2]"/>
-  <STRING id="Error.9" value="[ProductName]"/>
+  <STRING id="Error.9" value="[ProductName] v[ProductVersion]"/>
   <STRING id="Error.10" value="{[2]}{, [3]}{, [4]}"/>
   <STRING id="Error.11" value="Message type: [1], Argument: [2]"/>
   <STRING id="Error.12" value="=== Logging started: [Date]  [Time] ==="/>
@@ -1119,12 +1119,12 @@
   <STRING id="Error.17" value="Out of memory. Shut down other applications before retrying."/>
   <STRING id="Error.18" value="Installer is no longer responding."/>
   <STRING id="Error.19" value="Installer stopped prematurely."/>
-  <STRING id="Error.20" value="Please wait while Windows configures [ProductName]"/>
+  <STRING id="Error.20" value="Please wait while Windows configures [ProductName] v[ProductVersion]"/>
   <STRING id="Error.21" value="Gathering required information..."/>
   <STRING id="Error.22" value="Removing older versions of this application..."/>
   <STRING id="Error.23" value="Preparing to remove older versions of this application..."/>
-  <STRING id="Error.32" value="{[ProductName] }Setup completed successfully."/>
-  <STRING id="Error.33" value="{[ProductName] }Setup failed."/>
+  <STRING id="Error.32" value="{[ProductName] v[ProductVersion] }Setup completed successfully."/>
+  <STRING id="Error.33" value="{[ProductName] v[ProductVersion] }Setup failed."/>
   <STRING id="Error.1001" value="Error [1]. [2]"/>
   <STRING id="Error.1101" value="Error reading from file: [2]. {{ System error [3].}}  Verify that the file exists and that you can access it."/>
   <STRING id="Error.1301" value="Cannot create the file &apos;[2]&apos;.  A directory with this name already exists.  Cancel the install and try installing to a different location."/>
@@ -1665,7 +1665,7 @@
   <STRING id="Error.3002" value="Patch [2] contains invalid sequencing information."/>
   <STRING id="Error.4000" value="Invalid serial number."/>
   <STRING id="Error.4001" value="Could not verify serial number."/>
-  <STRING id="Error.4010" value="A more recent version of [ProductName] is already installed on this computer."/>
+  <STRING id="Error.4010" value="A more recent version of [ProductName] v[ProductVersion] is already installed on this computer."/>
   <STRING id="Error.4020" value="There was an error during the IIS configuration process.&#10;Your original IIS configuration will be restored."/>
   <STRING id="Error.4021" value="Web Site &quot;[2]&quot; already exists on this server.&#10;&#10;Do you want to skip this web site and continue the installation ?"/>
   <STRING id="Error.4022" value="Virtual Directory &quot;[2]&quot; on Web Site &quot;[3]&quot; already exists on this server.&#10;&#10;Do you want to skip this virtual directory and continue the installation ?"/>
@@ -1711,11 +1711,11 @@
   <STRING id="Error.4143" value="SQL script parse error: invalid syntax."/>
   <STRING id="Error.4150" value="Internal error in CallStdFcn."/>
   <STRING id="Error.4151" value="Function '[2]' not found in DLL '[3]'."/>
-  <STRING id="Error.4152" value="Would you like to remove [ProductName] settings and temporary files?"/>
+  <STRING id="Error.4152" value="Would you like to remove [ProductName] v[ProductVersion] settings and temporary files?"/>
   <STRING id="Error.4153" value="[2] mandatory prerequisite was not correctly installed."/>
-  <STRING id="Error.4154" value="[2] prerequisite was not correctly installed. Continue installation of [ProductName]?"/>
+  <STRING id="Error.4154" value="[2] prerequisite was not correctly installed. Continue installation of [ProductName] v[ProductVersion]?"/>
   <STRING id="Error.4155" value="Failed to correctly download [2] file: CRC error. Please check your Internet connection and retry!"/>
-  <STRING id="Error.4156" value="Failed to correctly download [2] file: CRC error. Please check your Internet connection and retry. Continue installation of [ProductName]?"/>
+  <STRING id="Error.4156" value="Failed to correctly download [2] file: CRC error. Please check your Internet connection and retry. Continue installation of [ProductName] v[ProductVersion]?"/>
   <STRING id="Error.4157" value="Failed to load [2]. Error:[3]"/>
   <STRING id="Error.4158" value="Failed to create file [2] because an invalid file name was specified."/>
   <STRING id="Error.4159" value="Failed to execute search &quot;[2]&quot; and replace &quot;[3]&quot; on file [4]. The file content was not modified."/>
@@ -1849,7 +1849,7 @@
   <STRING id="UIText.InstallMessage" value="Installing files."/>
   <STRING id="UIText.NumberValidationTipTitle" value="Unacceptable Character"/>
   <STRING id="UIText.NumberValidationTipMsg" value="You can only type a number here."/>
-  <STRING id="UIText.UninstallMsg" value="Are you sure you want to uninstall [ProductName]?"/>
+  <STRING id="UIText.UninstallMsg" value="Are you sure you want to uninstall [ProductName] v[ProductVersion]?"/>
   <STRING id="UIText.InstallingPackage" value="Installing [1]"/>
   <STRING id="UIText.UnInstallingPackage" value="Removing [1]"/>
   <STRING id="UIText.ConfigurePackage" value="Configuring [1]"/>
