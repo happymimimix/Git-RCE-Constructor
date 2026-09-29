@@ -60,7 +60,7 @@
     <ROW Property="ProductCode" Value="1033:{00000000-0000-0000-0000-000000000000} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="Git RCE Constructor"/>
-    <ROW Property="ProductVersion" Value="1.7.2"/>
+    <ROW Property="ProductVersion" Value="1.8.0"/>
     <ROW Property="REBOOT" MultiBuildValue="DefaultBuild:ReallySuppress"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
     <ROW Property="UpgradeCode" Value="{00000000-0000-0000-0000-000000000000}"/>
@@ -101,7 +101,7 @@
     <ROW File="Git_RCE_Constructor_Local.sh" Component_="SCRIPTS" FileName="LOCRCE.SH|Git_RCE_Constructor_Local.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Local.sh" SelfReg="false"/>
     <ROW File="Git_RCE_Constructor_Remote.sh" Component_="SCRIPTS" FileName="RMTRCE.SH|Git_RCE_Constructor_Remote.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Remote.sh" SelfReg="false"/>
     <ROW File="Git_RCE_Constructor_Update.sh" Component_="SCRIPTS" FileName="UPDRCE.SH|Git_RCE_Constructor_Update.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Update.sh" SelfReg="false"/>
-    <ROW File="Safe_Clone_Tool.sh" Component_="SCRIPTS" FileName="SAFECLNE.SH|Safe_Clone_Tool.sh" Attributes="0" SourcePath="Safe_Clone_Tool.sh" SelfReg="false"/>
+    <ROW File="Git_RCE_Constructor_Clone.sh" Component_="SCRIPTS" FileName="CLNRCE.SH|Git_RCE_Constructor_Clone.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Clone.sh" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder]gitrcetool_inst\dwnl" Options="2"/>
