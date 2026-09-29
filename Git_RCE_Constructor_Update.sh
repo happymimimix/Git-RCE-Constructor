@@ -43,6 +43,8 @@ git rm gitlnk
 git commit -m "remove-symlink"
 git submodule update --init --recursive
 git submodule set-url GITLNK/modules/RCE "$hook_repo_path"
+git -C GITLNK/modules/RCE fetch origin --prune
+git -C GITLNK/modules/RCE remote set-head origin --auto
 git submodule update --remote GITLNK/modules/RCE
 git config -f .gitmodules submodule.RCE/scripts.ignore all
 git add .gitmodules GITLNK/modules/RCE
