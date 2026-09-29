@@ -1,7 +1,7 @@
 #!/bin/bash
 set +x
 echo Git Safe Clone Tool v1.7.2
-echo -e "\033]0;Git Safe Clone Tool v1.7\007"
+echo -e "\033]0;Git Safe Clone Tool v1.7.2\007"
 echo Notice: This tool can only safely clone repositories created using Git RCE Constructor.
 echo There is no guaranteed success for cloning repositories created using other tools!
 read -r -p "Repository URL: " main_repo_path

