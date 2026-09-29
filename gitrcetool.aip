@@ -60,7 +60,7 @@
     <ROW Property="ProductCode" Value="1033:{00000000-0000-0000-0000-000000000000} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="Git RCE Constructor"/>
-    <ROW Property="ProductVersion" Value="1.8.0"/>
+    <ROW Property="ProductVersion" Value="1.9.0"/>
     <ROW Property="REBOOT" MultiBuildValue="DefaultBuild:ReallySuppress"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
     <ROW Property="UpgradeCode" Value="{00000000-0000-0000-0000-000000000000}"/>
@@ -85,10 +85,12 @@
     <ROW Component="APPDIR" Directory_="APPDIR" Attributes="512"/>
     <ROW Component="INSTALLERS" Directory_="APPDIR" Attributes="512" KeyPath="Git_2.45.0_64bit.exe"/>
     <ROW Component="SCRIPTS" Directory_="APPDIR" Attributes="512" KeyPath="Git_RCE_Constructor_Local.sh"/>
+    <ROW Component="SERVER" Directory_="APPDIR" Attributes="768" KeyPath="GiteaServer.exe"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
-    <ROW Feature="Installers" Title="Git v2.45.0 Installers" Description="The official unmodified installer of Git for Windows v2.45.0." Display="3" Level="1" Directory_="APPDIR" Attributes="8"/>
     <ROW Feature="Scripts" Title="RCE Constructor Scripts" Description="Scripts for constructing RCE repositories with a single click." Display="1" Level="1" Directory_="APPDIR" Attributes="24"/>
+    <ROW Feature="Installers" Title="Git v2.45.0 Installers" Description="The official unmodified installer of Git for Windows v2.45.0." Display="2" Level="1" Directory_="APPDIR" Attributes="8"/>
+    <ROW Feature="Server" Title="Gitea Server" Description="Server software for hosting your repositories." Display="3" Level="1" Directory_="APPDIR" Attributes="8"/>
     <ATTRIBUTE name="CurrentFeature" value="Scripts"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
@@ -104,6 +106,8 @@
     <ROW File="Git_RCE_Constructor_Remote_Shallow.sh" Component_="SCRIPTS" FileName="RMTSLW.SH|Git_RCE_Constructor_Remote_Shallow.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Remote_Shallow.sh" SelfReg="false"/>
     <ROW File="Git_RCE_Constructor_Update_Shallow.sh" Component_="SCRIPTS" FileName="UPDSLW.SH|Git_RCE_Constructor_Update_Shallow.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Update_Shallow.sh" SelfReg="false"/>
     <ROW File="Git_RCE_Constructor_Clone.sh" Component_="SCRIPTS" FileName="CLNRCE.SH|Git_RCE_Constructor_Clone.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Clone.sh" SelfReg="false"/>
+    <ROW File="GiteaServer.exe" Component_="SERVER" FileName="GITSRV.EXE|GiteaServer.exe" Attributes="0" SourcePath="GiteaServer.exe" SelfReg="false"/>
+    <ROW File="GiteaRunner.exe" Component_="SERVER" FileName="GITRUN.EXE|GiteaRunner.exe" Attributes="0" SourcePath="GiteaRunner.exe" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder]gitrcetool_inst\dwnl" Options="2"/>
@@ -256,6 +260,7 @@
     <ROW Feature_="Scripts" Component_="APPDIR"/>
     <ROW Feature_="Installers" Component_="INSTALLERS"/>
     <ROW Feature_="Scripts" Component_="SCRIPTS"/>
+    <ROW Feature_="Server" Component_="SERVER"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
     <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
