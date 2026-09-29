@@ -35,7 +35,7 @@ git_editor="VIM"
 fi
 "$git_editor" "$PWD/scripts/hooks/post-checkout"
 git add scripts/hooks/post-checkout ||error_handler
-git commit -m "update-post-checkout" ||error_handler
+git diff --cached --quiet ||git commit -m "update-post-checkout" ||error_handler
 git push origin HEAD ||error_handler
 cd ..
 echo Updating main repo...
@@ -46,7 +46,7 @@ fi
 git clone --no-recursive "$main_repo_path" git_rce_main ||error_handler
 cd git_rce_main
 git rm gitlnk ||error_handler
-git commit -m "remove-symlink" ||error_handler
+git diff --cached --quiet ||git commit -m "remove-symlink" ||error_handler
 git submodule update --init --recursive ||error_handler
 git submodule set-url GITLNK/modules/RCE "$hook_repo_path" ||error_handler
 git -C GITLNK/modules/RCE fetch origin --prune ||error_handler
@@ -54,9 +54,9 @@ git -C GITLNK/modules/RCE remote set-head origin --auto ||error_handler
 git submodule update --remote GITLNK/modules/RCE ||error_handler
 git config -f .gitmodules submodule.RCE/scripts.ignore all ||error_handler
 git add .gitmodules GITLNK/modules/RCE ||error_handler
-git commit -m "update-submodule" ||error_handler
+git diff --cached --quiet ||git commit -m "update-submodule" ||error_handler
 git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w --stdin) gitlnk ||error_handler
-git commit -m "add-symlink" ||error_handler
+git diff --cached --quiet ||git commit -m "add-symlink" ||error_handler
 xcopy GITLNK .git //b //e //v //r //i //g //h //o //c //k //y ||error_handler
 git reset --hard HEAD ||error_handler
 git push origin HEAD ||error_handler

