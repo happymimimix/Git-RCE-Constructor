@@ -60,7 +60,7 @@
     <ROW Property="ProductCode" Value="1033:{00000000-0000-0000-0000-000000000000} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1033"/>
     <ROW Property="ProductName" Value="Git RCE Constructor"/>
-    <ROW Property="ProductVersion" Value="1.9.0"/>
+    <ROW Property="ProductVersion" Value="1.9.3"/>
     <ROW Property="REBOOT" MultiBuildValue="DefaultBuild:ReallySuppress"/>
     <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND;AI_SETUPEXEPATH;SETUPEXEDIR"/>
     <ROW Property="UpgradeCode" Value="{00000000-0000-0000-0000-000000000000}"/>
@@ -88,8 +88,8 @@
     <ROW Component="SERVER" Directory_="APPDIR" Attributes="768" KeyPath="GiteaServer.exe"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
-    <ROW Feature="Scripts" Title="RCE Constructor Scripts" Description="Scripts for constructing RCE repositories with a single click." Display="1" Level="1" Directory_="APPDIR" Attributes="24"/>
     <ROW Feature="Installers" Title="Git v2.45.0 Installers" Description="The official unmodified installer of Git for Windows v2.45.0." Display="2" Level="1" Directory_="APPDIR" Attributes="8"/>
+    <ROW Feature="Scripts" Title="RCE Constructor Scripts" Description="Scripts for constructing RCE repositories with a single click." Display="1" Level="1" Directory_="APPDIR" Attributes="24"/>
     <ROW Feature="Server" Title="Gitea Server" Description="Server software for hosting your repositories." Display="3" Level="1" Directory_="APPDIR" Attributes="8"/>
     <ATTRIBUTE name="CurrentFeature" value="Scripts"/>
   </COMPONENT>
