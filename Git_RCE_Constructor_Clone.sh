@@ -6,8 +6,8 @@ echo -n "Operation failed!"
 read -N 1
 exit 0
 }
-echo Git RCE Constructor v1.8.0 \(Clone Mode\)
-echo -e "\033]0;Git RCE Constructor v1.8.0 (Clone Mode)\007"
+echo Git RCE Constructor v1.9.0 \(Clone Mode\)
+echo -e "\033]0;Git RCE Constructor v1.9.0 (Clone Mode)\007"
 echo Notice: This tool can only safely clone repositories created using Git RCE Constructor.
 echo There is no guaranteed success for cloning repositories created using other tools!
 read -r -p "Repository URL: " main_repo_path

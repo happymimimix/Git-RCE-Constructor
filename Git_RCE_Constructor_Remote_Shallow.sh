@@ -6,8 +6,8 @@ echo -n "Operation failed!"
 read -N 1
 exit 0
 }
-echo Git RCE Constructor v1.8.0 \(Remote Mode With Shallow Clone\)
-echo -e "\033]0;Git RCE Constructor v1.8.0 (Remote Mode With Shallow Clone)\007"
+echo Git RCE Constructor v1.9.0 \(Remote Mode With Shallow Clone\)
+echo -e "\033]0;Git RCE Constructor v1.9.0 (Remote Mode With Shallow Clone)\007"
 echo Notice: You must use Git v2.45.0 for this exploit to work!
 read -r -p "Main repository URL: " main_repo_path
 read -r -p "Hook repository URL: " hook_repo_path

