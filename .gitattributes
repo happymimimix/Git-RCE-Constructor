@@ -1,1 +1,2 @@
 Gitea*.exe filter=lfs diff=lfs merge=lfs -text
+gitrcetool-SetupFiles/gitrcetool.exe filter=lfs diff=lfs merge=lfs -text
