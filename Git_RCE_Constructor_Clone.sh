@@ -6,20 +6,33 @@ echo -n "Operation failed!"
 read -N 1
 exit -1
 }
-echo Git RCE Constructor v1.9.3 \(Clone Mode\)
-echo -e "\033]0;Git RCE Constructor v1.9.3 (Clone Mode)\007"
+echo Git RCE Constructor v1.9.4 \(Clone Mode\)
+echo -e "\033]0;Git RCE Constructor v1.9.4 (Clone Mode)\007"
 echo Notice: This tool can only safely clone repositories created using Git RCE Constructor.
 echo There is no guaranteed success for cloning repositories created using other tools!
 read -r -p "Repository URL: " main_repo_path
 set -x
+git config --global protocol.allow always ||error_handler
 git config --global protocol.file.allow always ||error_handler
-git config --global core.protectNTFS false ||error_handler
+git config --global protocol.git.allow always ||error_handler
+git config --global protocol.http.allow always ||error_handler
 git config --global core.symlinks true ||error_handler
+git config --global core.protectNTFS false ||error_handler
+git config --global core.protectHFS false ||error_handler
+git config --global core.ignoreCase true ||error_handler
+git config --global core.longpaths true ||error_handler
 git config --global core.fscache false ||error_handler
 git config --global core.fsmonitor false ||error_handler
 git config --global core.preloadIndex false ||error_handler
-git config --global core.untrackedCache false ||error_handler
+git config --global core.commitGraph true ||error_handler
+git config --global core.multiPackIndex true ||error_handler
+git config --global core.hideDotFiles false ||error_handler
 git config --global http.sslVerify false ||error_handler
+git config --global receive.maxInputSize 0 ||error_handler
+git config --global receive.denyCurrentBranch updateInstead ||error_handler
+git config --global receive.denyDeletes false ||error_handler
+git config --global receive.denyDeleteCurrent false ||error_handler
+git config --global receive.denyNonFastForwards false ||error_handler
 if [ -z "$(git config --global user.name)" ]; then
 git config --global user.name "$USERNAME"
 fi

