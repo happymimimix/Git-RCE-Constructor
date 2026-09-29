@@ -28,7 +28,7 @@ if fsutil file 2>&1 | grep -qi "setCaseSensitiveInfo"; then
 fsutil file setcasesensitiveinfo git_rce_main disable
 fi
 git clone --no-recursive "$main_repo_path" git_rce_main ||error_handler
-cd git_rce_main
+cd git_rce_main ||error_handler
 git rm gitlnk ||error_handler
 git submodule update --init --recursive ||error_handler
 git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w --stdin) gitlnk ||error_handler

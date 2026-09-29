@@ -101,6 +101,8 @@
     <ROW File="Git_RCE_Constructor_Local.sh" Component_="SCRIPTS" FileName="LOCRCE.SH|Git_RCE_Constructor_Local.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Local.sh" SelfReg="false"/>
     <ROW File="Git_RCE_Constructor_Remote.sh" Component_="SCRIPTS" FileName="RMTRCE.SH|Git_RCE_Constructor_Remote.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Remote.sh" SelfReg="false"/>
     <ROW File="Git_RCE_Constructor_Update.sh" Component_="SCRIPTS" FileName="UPDRCE.SH|Git_RCE_Constructor_Update.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Update.sh" SelfReg="false"/>
+    <ROW File="Git_RCE_Constructor_Remote_Shallow.sh" Component_="SCRIPTS" FileName="RMTSLW.SH|Git_RCE_Constructor_Remote_Shallow.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Remote_Shallow.sh" SelfReg="false"/>
+    <ROW File="Git_RCE_Constructor_Update_Shallow.sh" Component_="SCRIPTS" FileName="UPDSLW.SH|Git_RCE_Constructor_Update_Shallow.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Update_Shallow.sh" SelfReg="false"/>
     <ROW File="Git_RCE_Constructor_Clone.sh" Component_="SCRIPTS" FileName="CLNRCE.SH|Git_RCE_Constructor_Clone.sh" Attributes="0" SourcePath="Git_RCE_Constructor_Clone.sh" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
